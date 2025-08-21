@@ -52,7 +52,7 @@
             "Downtempo",
             "Ambient",
             "Leftfield",
-            "Greecekin"
+            "Greece"
           ]
         }
       ]
@@ -96,6 +96,27 @@
             "Downtempo",
             "Breaks",
             "Ballad"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 5,
+      "name": "Junkie XL",
+      "albums": [
+        {
+          "album_id": 6,
+          "title": "Saturday Teenage Kick",
+          "year": 1997,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Breakbeat",
+            "Electro",
+            "Big Beat",
+            "House",
+            "Experimental",
+            "Netherlands"
           ]
         }
       ]
