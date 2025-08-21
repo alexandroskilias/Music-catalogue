@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Music Catalog Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to handle the layout and appearance */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        .message-box {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            display: none;
+        }
+        .message-box.success {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+        .message-box.error {
+            background-color: #fee2e2;
+            color: #991b1b;
+        }
+    </style>
+</head>
+<body class="p-8">
+
+    <div class="container bg-white p-8 rounded-xl shadow-lg">
+        <h1 class="text-3xl font-bold mb-6 text-gray-800 text-center">JSON Music Catalog Editor</h1>
+
+        <div class="mb-6">
+            <label for="jsonInput" class="block text-gray-700 font-semibold mb-2">Paste or edit your JSON here:</label>
+            <textarea id="jsonInput" class="w-full h-48 p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 font-mono text-sm" placeholder='Paste your JSON data here...'></textarea>
+        </div>
+
+        <div class="mb-6">
+            <label for="fileInput" class="block text-gray-700 font-semibold mb-2">Or, load a JSON file from your computer:</label>
+            <input type="file" id="fileInput" accept=".json" class="block w-full text-sm text-gray-500
+                file:mr-4 file:py-2 file:px-4
+                file:rounded-full file:border-0
+                file:text-sm file:font-semibold
+                file:bg-indigo-50 file:text-indigo-700
+                hover:file:bg-indigo-100 transition duration-300" />
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
+            <button id="loadBtn" class="bg-indigo-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">Load JSON</button>
+            <button id="showJsonBtn" class="bg-gray-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-gray-700 transition duration-300">Show JSON</button>
+            <button id="saveBtn" class="bg-yellow-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-yellow-700 transition duration-300">Save JSON</button>
+        </div>
+
+        <div class="bg-gray-200 p-6 rounded-xl shadow-inner mb-8">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">Add New Album</h2>
+            <div class="space-y-4">
+                <div>
+                    <label for="artistNameInput" class="block text-sm font-medium text-gray-700">Artist Name</label>
+                    <input type="text" id="artistNameInput" placeholder="e.g., The Beatles" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+                <div>
+                    <label for="albumTitleInput" class="block text-sm font-medium text-gray-700">Album Title</label>
+                    <input type="text" id="albumTitleInput" placeholder="e.g., Abbey Road" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+                <div>
+                    <label for="albumYearInput" class="block text-sm font-medium text-gray-700">Album Year</label>
+                    <input type="number" id="albumYearInput" placeholder="e.g., 1969" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+                <div>
+                    <label for="albumRatingSelect" class="block text-sm font-medium text-gray-700">Album Rating</label>
+                    <select id="albumRatingSelect" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                        <option value="good">good</option>
+                        <option value="perfect">perfect</option>
+                        <option value="bad">bad</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="albumTagsInput" class="block text-sm font-medium text-gray-700">Album Tags (comma-separated)</label>
+                    <input type="text" id="albumTagsInput" placeholder="e.g., Electronic, Ambient, Chillwave" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                </div>
+            </div>
+            <div class="mt-4 grid grid-cols-2 gap-4">
+                <button id="addAlbumBtn" class="bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition duration-300">Add Album</button>
+                <button id="clearFormBtn" class="bg-red-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-red-700 transition duration-300">Clear Form</button>
+            </div>
+        </div>
+
+        <div id="messageBox" class="message-box"></div>
+
+        <div id="dataDisplay" class="space-y-8">
+            </div>
+    </div>
+
+    <script>
+        // Global variable to hold the music data
+        let musicData = null;
+
+        // Get references to DOM elements
+        const jsonInput = document.getElementById('jsonInput');
+        const fileInput = document.getElementById('fileInput');
+        const loadBtn = document.getElementById('loadBtn');
+        const addAlbumBtn = document.getElementById('addAlbumBtn');
+        const showJsonBtn = document.getElementById('showJsonBtn');
+        const saveBtn = document.getElementById('saveBtn');
+        const dataDisplay = document.getElementById('dataDisplay');
+        const messageBox = document.getElementById('messageBox');
+        const clearFormBtn = document.getElementById('clearFormBtn');
+
+        // References to the new form inputs
+        const artistNameInput = document.getElementById('artistNameInput');
+        const albumTitleInput = document.getElementById('albumTitleInput');
+        const albumYearInput = document.getElementById('albumYearInput');
+        const albumRatingSelect = document.getElementById('albumRatingSelect');
+        const albumTagsInput = document.getElementById('albumTagsInput'); // NEW INPUT REFERENCE
+
+        /**
+         * Displays a message to the user with a specific type (success or error).
+         * @param {string} message The message to display.
+         * @param {string} type The type of message ('success' or 'error').
+         */
+        function showMessage(message, type) {
+            messageBox.textContent = message;
+            messageBox.className = `message-box ${type}`;
+            messageBox.style.display = 'block';
+            // Hide the message after 5 seconds
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, 5000);
+        }
+
+        /**
+         * Renders the music catalog data into the display area.
+         */
+        function renderData() {
+            // Clear the display area
+            dataDisplay.innerHTML = '';
+            
+            // Check if there is data to render
+            if (!musicData || !musicData.artists || musicData.artists.length === 0) {
+                dataDisplay.innerHTML = '<p class="text-center text-gray-500">No data loaded. Load JSON or add an album.</p>';
+                return;
+            }
+
+            // Create a mapping for string ratings to numerical values for calculation
+            const ratingMap = {
+                'bad': 1,
+                'good': 2,
+                'perfect': 3
+            };
+
+            // Loop through each artist and create a display card for them
+            musicData.artists.forEach(artist => {
+                const artistCard = document.createElement('div');
+                artistCard.className = 'p-6 bg-gray-100 rounded-xl shadow-md';
+                
+                // Calculate the average rating for the artist
+                let artistRating = 'N/A';
+                if (artist.albums && artist.albums.length > 0) {
+                    const totalRating = artist.albums.reduce((sum, album) => {
+                        // Use the rating map to get the numerical value for each album
+                        const albumRating = ratingMap[album.rating.toLowerCase()] || 0;
+                        return sum + albumRating;
+                    }, 0);
+                    artistRating = (totalRating / artist.albums.length).toFixed(2);
+                }
+
+                const artistTitle = document.createElement('h2');
+                artistTitle.className = 'text-xl font-bold text-gray-800 mb-4';
+                artistTitle.textContent = `${artist.name} (ID: ${artist.artist_id})`;
+                artistCard.appendChild(artistTitle);
+                
+                const artistRatingDisplay = document.createElement('p');
+                artistRatingDisplay.className = 'text-sm text-gray-500 mb-4';
+                artistRatingDisplay.textContent = `Overall Artist Rating: ${artistRating}`;
+                artistCard.appendChild(artistRatingDisplay);
+
+                // Create a list for the albums
+                const albumList = document.createElement('div');
+                albumList.className = 'space-y-4';
+                
+                // Loop through each album of the artist
+                if (artist.albums && artist.albums.length > 0) {
+                    artist.albums.forEach(album => {
+                        const albumItem = document.createElement('div');
+                        albumItem.className = 'flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm';
+                        
+                        // Use a consistent display for the rating, now that it's a string
+                        const ratingDisplay = album.rating === 'perfect' ? '⭐' : (album.rating === 'good' ? '👍' : '👎');
+                        
+                        let tagsHtml = '';
+                        if (album.tags && album.tags.length > 0) {
+                            tagsHtml = album.tags.map(tag => `<span class="bg-gray-200 text-gray-700 text-xs font-semibold px-2 py-1 rounded-full">${tag.trim()}</span>`).join('');
+                        }
+
+                        const albumDetails = `
+                            <div class="flex-grow">
+                                <h3 class="font-semibold text-gray-700">${album.title}</h3>
+                                <p class="text-sm text-gray-500">Year: ${album.year} &bull; Rating: ${album.rating} ${ratingDisplay}</p>
+                                <div class="flex space-x-2 mt-2">
+                                    ${tagsHtml}
+                                </div>
+                            </div>
+                            <span class="text-xs text-gray-400">ID: ${album.album_id}</span>
+                        `;
+                        albumItem.innerHTML = albumDetails;
+                        albumList.appendChild(albumItem);
+                    });
+                } else {
+                    const noAlbums = document.createElement('p');
+                    noAlbums.className = 'text-gray-500 text-sm italic';
+                    noAlbums.textContent = 'No albums for this artist yet.';
+                    albumList.appendChild(noAlbums);
+                }
+                
+                artistCard.appendChild(albumList);
+                dataDisplay.appendChild(artistCard);
+            });
+        }
+
+        /**
+         * Clears all input fields in the Add Album form.
+         */
+        function clearForm() {
+            artistNameInput.value = '';
+            albumTitleInput.value = '';
+            albumYearInput.value = '';
+            albumRatingSelect.value = 'good';
+            albumTagsInput.value = ''; // NEW: Clear the tags input
+        }
+
+        /**
+         * Loads and parses the JSON data from the textarea.
+         */
+        function loadJson() {
+            try {
+                const data = JSON.parse(jsonInput.value);
+                if (data.artists) {
+                    musicData = data;
+                    renderData();
+                    showMessage('JSON data loaded successfully!', 'success');
+                } else {
+                    throw new Error('Invalid JSON structure. Please ensure it contains an "artists" array.');
+                }
+            } catch (e) {
+                showMessage(`Error loading JSON: ${e.message}`, 'error');
+                console.error(e);
+            }
+        }
+
+        /**
+         * Adds a new album and its artist (if needed) to the catalog using form inputs.
+         */
+        function addAlbum() {
+            if (!musicData) {
+                showMessage('Please load JSON data first.', 'error');
+                return;
+            }
+
+            const artistName = artistNameInput.value.trim();
+            const albumTitle = albumTitleInput.value.trim();
+            const albumYear = parseInt(albumYearInput.value);
+            const albumRating = albumRatingSelect.value;
+            const albumTags = albumTagsInput.value.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0); // NEW: Process tags
+
+            // Basic validation
+            if (!artistName || !albumTitle || isNaN(albumYear) || !albumRating) {
+                showMessage('Please fill in all album details correctly.', 'error');
+                return;
+            }
+
+            // Check if artist already exists
+            let artist = musicData.artists.find(a => a.name.toLowerCase() === artistName.toLowerCase());
+
+            if (!artist) {
+                // If artist doesn't exist, create a new one
+                const newId = musicData.artists.length > 0 ? Math.max(...musicData.artists.map(a => a.artist_id)) + 1 : 1;
+                artist = {
+                    artist_id: newId,
+                    name: artistName,
+                    albums: []
+                };
+                musicData.artists.push(artist);
+                showMessage(`New artist "${artistName}" created.`, 'success');
+            }
+
+            const newId = musicData.artists.reduce((maxId, currentArtist) => {
+                const maxAlbumId = currentArtist.albums.reduce((max, album) => Math.max(max, album.album_id), 0);
+                return Math.max(maxId, maxAlbumId);
+            }, 0) + 1;
+
+            const newAlbum = {
+                album_id: newId,
+                title: albumTitle,
+                year: albumYear,
+                rating: albumRating,
+                tags: albumTags // NEW: Add the tags array
+            };
+            artist.albums.push(newAlbum);
+            
+            // Clear the form and re-render the display
+            clearForm();
+            renderData();
+            showJson();
+            showMessage(`Album "${albumTitle}" added to "${artist.name}".`, 'success');
+        }
+
+        /**
+         * Converts the current music data object back to a formatted JSON string
+         * and displays it in the textarea.
+         */
+        function showJson() {
+            if (musicData) {
+                jsonInput.value = JSON.stringify(musicData, null, 2);
+                showMessage('Current data shown in the text area.', 'success');
+            } else {
+                showMessage('No data to display.', 'error');
+            }
+        }
+        
+        /**
+         * Saves the current music data as a JSON file.
+         */
+        function saveJson() {
+            if (!musicData) {
+                showMessage('No data to save.', 'error');
+                return;
+            }
+            try {
+                const jsonString = JSON.stringify(musicData, null, 2);
+                const blob = new Blob([jsonString], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'music_catalog.json';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                showMessage('JSON data saved to file!', 'success');
+            } catch (e) {
+                showMessage(`Error saving JSON: ${e.message}`, 'error');
+                console.error(e);
+            }
+        }
+
+        // Add event listeners to the buttons
+        loadBtn.addEventListener('click', loadJson);
+        addAlbumBtn.addEventListener('click', addAlbum);
+        showJsonBtn.addEventListener('click', showJson);
+        saveBtn.addEventListener('click', saveJson);
+        clearFormBtn.addEventListener('click', clearForm);
+        
+        // Event listener for the file input
+        fileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (!file) {
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const fileContent = e.target.result;
+                try {
+                    const data = JSON.parse(fileContent);
+                    if (data.artists) {
+                        musicData = data;
+                        renderData();
+                        showMessage('JSON file loaded successfully!', 'success');
+                    } else {
+                        throw new Error('Invalid JSON structure. Please ensure it contains an "artists" array.');
+                    }
+                } catch (error) {
+                    showMessage(`Error parsing JSON file: ${error.message}`, 'error');
+                    console.error(error);
+                }
+            };
+            reader.onerror = (e) => {
+                showMessage('Error reading file.', 'error');
+                console.error(e);
+            };
+            
+            // Read the file as text
+            reader.readAsText(file);
+        });
+
+    </script>
+</body>
+</html>

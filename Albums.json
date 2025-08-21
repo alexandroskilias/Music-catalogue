@@ -1,0 +1,104 @@
+{
+  "artists": [
+    {
+      "artist_id": 1,
+      "name": "ATMOSPHRS",
+      "albums": [
+        {
+          "album_id": 1,
+          "title": "WAVE.04",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "progressive rock",
+            "rock",
+            "ambient rock",
+            "djent",
+            "experimental rock",
+            "post-rock",
+            "progressive metal",
+            "Belgium"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 2,
+      "name": "Στέρεο Νόβα (Stereo Nova)",
+      "albums": [
+        {
+          "album_id": 2,
+          "title": "Ντισκολάτα (Diskolata)",
+          "year": 1993,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Freestyle",
+            "Leftfield",
+            "Electro",
+            "Downtempo",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 5,
+          "title": "Ασύρματος Κόσμος (Asyrmatos Kosmos)",
+          "year": 1994,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Freestyle",
+            "Electro",
+            "Downtempo",
+            "Ambient",
+            "Leftfield",
+            "Greecekin"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 3,
+      "name": "Dalene",
+      "albums": [
+        {
+          "album_id": 3,
+          "title": "For Those in Love",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "indie pop",
+            "pop",
+            "synth pop",
+            "indie rock",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 4,
+      "name": "Aurora",
+      "albums": [
+        {
+          "album_id": 4,
+          "title": "The Gods We Can Touch",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "Norway",
+            "Bergen",
+            "Electronic",
+            "Pop",
+            "Indie Pop",
+            "Synth-pop",
+            "Downtempo",
+            "Breaks",
+            "Ballad"
+          ]
+        }
+      ]
+    }
+  ]
+}
