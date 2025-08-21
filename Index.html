@@ -103,6 +103,22 @@
             }
 
             /**
+             * Helper function to convert a numerical average rating to a text rating and color.
+             * This function implements the "round up" logic.
+             * @param {number} numericalRating The average numerical rating.
+             * @returns {object} An object with the text and Tailwind color class for the rating.
+             */
+            function getDisplayRating(numericalRating) {
+                if (numericalRating >= 2.5) {
+                    return { text: 'Perfect', color: 'bg-purple-600' };
+                } else if (numericalRating >= 1.5) {
+                    return { text: 'Good', color: 'bg-green-600' };
+                } else {
+                    return { text: 'Bad', color: 'bg-red-600' };
+                }
+            }
+
+            /**
              * Fetches and processes album data, including calculating artist average ratings.
              * @returns {Promise<Array>} A promise that resolves to a flat array of album objects.
              */
@@ -121,7 +137,7 @@
                     data.artists.forEach(artist => {
                         const totalRating = artist.albums.reduce((sum, album) => sum + getNumericalRating(album.rating), 0);
                         const averageRating = totalRating / artist.albums.length;
-                        allArtistsData[artist.name] = averageRating.toFixed(2); // Round to 2 decimal places
+                        allArtistsData[artist.name] = averageRating;
                     });
 
                     // Flatten the nested data structure into a single, easy-to-filter array
@@ -195,14 +211,17 @@
                 for (const artist in albumsByArtist) {
                     // Sort albums for the current artist by year (ascending)
                     const sortedAlbums = albumsByArtist[artist].sort((a, b) => a.year - b.year);
-                    const averageRating = allArtistsData[artist] || 'N/A'; // Get the pre-calculated rating
-
+                    const numericalAverage = allArtistsData[artist] || 0;
+                    const artistRating = getDisplayRating(numericalAverage);
+                    
                     const artistGroup = document.createElement('div');
                     artistGroup.classList.add('mb-8');
                     artistGroup.innerHTML = `
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
                             ${artist}
-                            <span class="text-base text-gray-500 font-normal ml-2">(Avg. Rating: ${averageRating})</span>
+                            <span class="rating-clickable text-base font-normal ml-2 px-2 py-1 rounded-full text-white cursor-pointer ${artistRating.color}" data-rating="${artistRating.text.toLowerCase()}">
+                                ${artistRating.text}
+                            </span>
                         </h2>
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             ${sortedAlbums.map(createAlbumCardHtml).join('')}
