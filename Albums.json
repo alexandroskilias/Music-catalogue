@@ -120,6 +120,26 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 6,
+      "name": "Ghost",
+      "albums": [
+        {
+          "album_id": 7,
+          "title": "Opvs Eponymovs (Opus Eponymous)",
+          "year": 2010,
+          "rating": "good",
+          "tags": [
+            "Rock",
+            "Doom Metal",
+            "Heavy Metal",
+            "Hard Rock",
+            "Psychedelic Rock",
+            "Sweden"
+          ]
+        }
+      ]
     }
   ]
 }
