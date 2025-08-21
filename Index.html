@@ -80,6 +80,7 @@
         // Use an IIFE (Immediately Invoked Function Expression) to avoid polluting the global scope
         (async function() {
             let allAlbums = [];
+            let allArtistsData = {}; // New object to store artist data with average ratings
             const albumList = document.getElementById('album-list');
             const statusMessage = document.getElementById('status-message');
             const artistFilter = document.getElementById('artist-filter');
@@ -88,10 +89,24 @@
             const resetButton = document.getElementById('reset-button');
 
             /**
-             * Fetches and flattens the album data from the JSON file.
+             * Helper function to get a numerical value for a given rating string.
+             * @param {string} rating The rating string ('perfect', 'good', 'bad').
+             * @returns {number} The corresponding numerical value.
+             */
+            function getNumericalRating(rating) {
+                switch(rating.toLowerCase()) {
+                    case 'perfect': return 3;
+                    case 'good': return 2;
+                    case 'bad': return 1;
+                    default: return 0;
+                }
+            }
+
+            /**
+             * Fetches and processes album data, including calculating artist average ratings.
              * @returns {Promise<Array>} A promise that resolves to a flat array of album objects.
              */
-            async function fetchAlbums() {
+            async function fetchAndProcessAlbums() {
                 statusMessage.classList.remove('hidden');
                 statusMessage.innerHTML = '<p>Loading albums...</p>';
                 try {
@@ -101,6 +116,14 @@
                     }
                     const data = await response.json();
                     
+                    // Calculate average ratings for each artist and store them
+                    allArtistsData = {};
+                    data.artists.forEach(artist => {
+                        const totalRating = artist.albums.reduce((sum, album) => sum + getNumericalRating(album.rating), 0);
+                        const averageRating = totalRating / artist.albums.length;
+                        allArtistsData[artist.name] = averageRating.toFixed(2); // Round to 2 decimal places
+                    });
+
                     // Flatten the nested data structure into a single, easy-to-filter array
                     const flatAlbums = data.artists.flatMap(artist => 
                         artist.albums.map(album => ({
@@ -146,7 +169,7 @@
             }
 
             /**
-             * Renders a list of albums to the DOM, grouped by artist.
+             * Renders a list of albums to the DOM, grouped by artist, with average ratings.
              * @param {Array} albumsToRender The array of album objects to display.
              */
             function renderAlbums(albumsToRender) {
@@ -172,11 +195,15 @@
                 for (const artist in albumsByArtist) {
                     // Sort albums for the current artist by year (ascending)
                     const sortedAlbums = albumsByArtist[artist].sort((a, b) => a.year - b.year);
-                    
+                    const averageRating = allArtistsData[artist] || 'N/A'; // Get the pre-calculated rating
+
                     const artistGroup = document.createElement('div');
                     artistGroup.classList.add('mb-8');
                     artistGroup.innerHTML = `
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4">${artist}</h2>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">
+                            ${artist}
+                            <span class="text-base text-gray-500 font-normal ml-2">(Avg. Rating: ${averageRating})</span>
+                        </h2>
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             ${sortedAlbums.map(createAlbumCardHtml).join('')}
                         </div>
@@ -257,7 +284,7 @@
             }
 
             // Initial fetch and render
-            allAlbums = await fetchAlbums();
+            allAlbums = await fetchAndProcessAlbums();
             if (allAlbums.length > 0) {
                 renderAlbums(allAlbums);
             }
