@@ -140,6 +140,54 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 7,
+      "name": "vmrrobotic",
+      "albums": [
+        {
+          "album_id": 8,
+          "title": "OBSERVATORY",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "progressive trance",
+            "ambient",
+            "ambient rock",
+            "atmospheric drum & bass",
+            "breakcore",
+            "electronica",
+            "neo-psychedelia",
+            "post-rock",
+            "progressive electronic",
+            "shoegaze",
+            "Barcelona"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 8,
+      "name": "Wheeler Newman",
+      "albums": [
+        {
+          "album_id": 9,
+          "title": "ShaShe",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "rock",
+            "art rock",
+            "indie rock",
+            "jazz",
+            "jazz rock",
+            "Orlando",
+            "USA",
+            "Florida"
+          ]
+        }
+      ]
     }
   ]
 }
