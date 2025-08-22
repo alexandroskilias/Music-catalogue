@@ -54,6 +54,24 @@
             "Leftfield",
             "Greece"
           ]
+        },
+        {
+          "album_id": 10,
+          "title": "Τέλσον (Telson)",
+          "year": 1996,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Electro",
+            "Experimental",
+            "Ambient",
+            "Greece",
+            "Leftfield",
+            "Industrial",
+            "Freestyle",
+            "Dub",
+            "Downtempo"
+          ]
         }
       ]
     },
