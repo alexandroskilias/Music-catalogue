@@ -206,6 +206,54 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 9,
+      "name": "Grim Love",
+      "albums": [
+        {
+          "album_id": 11,
+          "title": "Mataroa",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "metal",
+            "metalcore",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 10,
+      "name": "Nefeli Fasouli",
+      "albums": [
+        {
+          "album_id": 12,
+          "title": "Wyrd",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "world",
+            "acid",
+            "arabic",
+            "folk",
+            "folklore",
+            "fusion",
+            "greek",
+            "modern jazz",
+            "nu jazz",
+            "psych folk",
+            "psychedelic",
+            "psychedelic rock",
+            "wyrd folk",
+            "wyrd pop",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
     }
   ]
 }
