@@ -254,6 +254,55 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 11,
+      "name": "Fine",
+      "albums": [
+        {
+          "album_id": 13,
+          "title": "Then, Now, Until",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Leeds",
+            "UK",
+            "downtempo",
+            "electronic",
+            "electronica",
+            "lounge",
+            "ambient",
+            "ambient electronic",
+            "chill",
+            "chillwave",
+            "electronica"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 12,
+      "name": "Sophie lies",
+      "albums": [
+        {
+          "album_id": 14,
+          "title": "Μια πέτρα σαν σπίτι",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "folk",
+            "spoken word",
+            "folk pop",
+            "indie",
+            "indie folk",
+            "indie pop",
+            "pop folk",
+            "singer-songwriter",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
     }
   ]
 }
