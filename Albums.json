@@ -303,6 +303,42 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 13,
+      "name": "Joep Beving",
+      "albums": [
+        {
+          "album_id": 15,
+          "title": "Solipsism",
+          "year": 2015,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Modern",
+            "Contemporary",
+            "The Netherlands"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 14,
+      "name": "Daniel Stahre",
+      "albums": [
+        {
+          "album_id": 16,
+          "title": "Margin Call II",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Jazz",
+            "contemporary",
+            "contemporary jazz",
+            "Piano jazz"
+          ]
+        }
+      ]
     }
   ]
 }
