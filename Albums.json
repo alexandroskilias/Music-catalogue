@@ -337,6 +337,30 @@
             "contemporary jazz",
             "Piano jazz"
           ]
+        },
+        {
+          "album_id": 17,
+          "title": "Margin Call",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "Jazz",
+            "contemporary",
+            "contemporary jazz",
+            "Piano jazz"
+          ]
+        },
+        {
+          "album_id": 18,
+          "title": "Notes",
+          "year": 2015,
+          "rating": "perfect",
+          "tags": [
+            "Jazz",
+            "contemporary",
+            "contemporary jazz",
+            "Piano jazz"
+          ]
         }
       ]
     }
