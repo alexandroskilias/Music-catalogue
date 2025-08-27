@@ -363,6 +363,28 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 15,
+      "name": "Elia Tomé",
+      "albums": [
+        {
+          "album_id": 19,
+          "title": "Therefore I Am Not",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Leeds",
+            "UK",
+            "Greece",
+            "Lebanon",
+            "electronic",
+            "alt rnb",
+            "electronica",
+            "future soul"
+          ]
+        }
+      ]
     }
   ]
 }
