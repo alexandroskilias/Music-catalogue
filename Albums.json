@@ -385,6 +385,27 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 16,
+      "name": "Djedjotronic",
+      "albums": [
+        {
+          "album_id": 20,
+          "title": "R.U.R",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "ebm",
+            "electro",
+            "techno",
+            "trance",
+            "Bordeaux",
+            "France"
+          ]
+        }
+      ]
     }
   ]
 }
