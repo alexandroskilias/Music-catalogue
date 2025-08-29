@@ -406,6 +406,65 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 17,
+      "name": "Ginger Frolic",
+      "albums": [
+        {
+          "album_id": 21,
+          "title": "Keyboard In A Tree",
+          "year": 2005,
+          "rating": "perfect",
+          "tags": [
+            "Rock",
+            "Pop",
+            "Pop Rock",
+            "France",
+            "Bordeaux"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 18,
+      "name": "Principleasure",
+      "albums": [
+        {
+          "album_id": 22,
+          "title": "I",
+          "year": 2019,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "electro",
+            "electronica",
+            "experimental electronic",
+            "soundtrack",
+            "techno",
+            "synthwave",
+            "Los Angeles",
+            "California"
+          ]
+        },
+        {
+          "album_id": 23,
+          "title": "II",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "synthwave",
+            "electronic",
+            "ambient",
+            "electro",
+            "electronica",
+            "experimental electronic",
+            "techno",
+            "California",
+            "Los Angeles"
+          ]
+        }
+      ]
     }
   ]
 }
