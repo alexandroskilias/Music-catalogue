@@ -465,6 +465,63 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 19,
+      "name": "Midi Cables",
+      "albums": [
+        {
+          "album_id": 24,
+          "title": "SIGNALS",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Synthwave"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 20,
+      "name": "Jinjer",
+      "albums": [
+        {
+          "album_id": 25,
+          "title": "King Of Everything",
+          "year": 2016,
+          "rating": "bad",
+          "tags": [
+            "metal",
+            "djent",
+            "groove metal",
+            "hardcore",
+            "metalcore",
+            "progressive metal",
+            "Ukraine"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 21,
+      "name": "The Diasonics",
+      "albums": [
+        {
+          "album_id": 26,
+          "title": "Origin Of Forms",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "funk",
+            "rare groove",
+            "hussar",
+            "soul",
+            "Moscow",
+            "Russia"
+          ]
+        }
+      ]
     }
   ]
 }
