@@ -522,6 +522,60 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 22,
+      "name": "Yorgos Kazantzis (Γιώργος Καζαντζής)",
+      "albums": [
+        {
+          "album_id": 27,
+          "title": "Ίσαλος Γραμμή",
+          "year": 2008,
+          "rating": "perfect",
+          "tags": [
+            "Greek Fold",
+            "Éntekhno",
+            "Greece",
+            "Thessaloniki"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 23,
+      "name": "Ορέστης Ντάντος (Orestis Ntantos)",
+      "albums": [
+        {
+          "album_id": 28,
+          "title": "Μοναχοπαίδια (Monachopedia)",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "Rock",
+            "Alternative rock",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 24,
+      "name": "Schwefelgelb",
+      "albums": [
+        {
+          "album_id": 29,
+          "title": "Ich Bin Wach",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "Techno",
+            "Electronic",
+            "Berlin",
+            "Germany",
+            "EP"
+          ]
+        }
+      ]
     }
   ]
 }
