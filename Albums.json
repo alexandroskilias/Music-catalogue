@@ -587,10 +587,61 @@
           "year": 2018,
           "rating": "good",
           "tags": [
-            "Freek Folk",
+            "Greek Folk",
             "Laïkó",
             "Rebetiko",
             "Éntekhno",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 26,
+      "name": "pan pan",
+      "albums": [
+        {
+          "album_id": 31,
+          "title": "Φαντασμαγορία Ένα",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "bedroom electronica",
+            "electro",
+            "lo-fi pop",
+            "post punk",
+            "Athens",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 32,
+          "title": "Φαντασμαγορία Δύο",
+          "year": 2021,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "bedroom electronica",
+            "electro",
+            "lo-fi pop",
+            "post punk",
+            "Athens",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 33,
+          "title": "Φαντασμαγορία Τρία",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "bedroom electronica",
+            "electro",
+            "lo-fi pop",
+            "post punk",
+            "Athens",
             "Greece"
           ]
         }
