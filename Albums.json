@@ -646,6 +646,105 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 27,
+      "name": "Σίλια Κατραλή (Cilia Katrali)",
+      "albums": [
+        {
+          "album_id": 34,
+          "title": "Πατίνια Στο Φεγγάρι (Patinia sto feggari)",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "pop",
+            "indie pop",
+            "bedroom electronica",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 28,
+      "name": "Penny And The Swingin' Cats",
+      "albums": [
+        {
+          "album_id": 35,
+          "title": "Εξωτικό Χαρμάνι",
+          "year": 2015,
+          "rating": "good",
+          "tags": [
+            "Jazz",
+            "Swing",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 29,
+      "name": "Αγγελίνα",
+      "albums": [
+        {
+          "album_id": 36,
+          "title": "Exali",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "pop",
+            "indie pop",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 30,
+      "name": "Crow Baby",
+      "albums": [
+        {
+          "album_id": 37,
+          "title": "Get Yourself Together",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "alternative",
+            "alternative pop",
+            "art pop",
+            "art rock",
+            "indie",
+            "pop",
+            "Berlin",
+            "Germany",
+            "Johannesburg",
+            "South Africa",
+            "Secret Eclectic"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 31,
+      "name": "CLERQ",
+      "albums": [
+        {
+          "album_id": 38,
+          "title": "CLERQ",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "Jazz",
+            "Rock",
+            "Pop",
+            "Classical",
+            "Contemporary Jazz",
+            "Neo-Classical",
+            "Impressionist",
+            "Secret Eclectic"
+          ]
+        }
+      ]
     }
   ]
 }
