@@ -745,6 +745,189 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 32,
+      "name": "Matt Karmil",
+      "albums": [
+        {
+          "album_id": 39,
+          "title": "++++",
+          "year": 2016,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Experimental",
+            "House"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 33,
+      "name": "Forever Pavot",
+      "albums": [
+        {
+          "album_id": 40,
+          "title": "RHAPSODE",
+          "year": 2014,
+          "rating": "perfect",
+          "tags": [
+            "pop",
+            "rock",
+            "psychedelic pop",
+            "psychedelic rock",
+            "Paris",
+            "France"
+          ]
+        },
+        {
+          "album_id": 41,
+          "title": "De Nos Frères Blessés (Bande originale du film)",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "Soundtrack",
+            "Psychedelic pop",
+            "pop",
+            "Ambient",
+            "Paris",
+            "France"
+          ]
+        },
+        {
+          "album_id": 44,
+          "title": "Simple Comme Sylvain",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "psychedelic pop",
+            "soundtrack",
+            "Paris",
+            "France"
+          ]
+        },
+        {
+          "album_id": 45,
+          "title": "LA PANTOUFLE",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "pop",
+            "rock",
+            "psychedelic pop",
+            "psychedelic rock",
+            "Paris",
+            "France"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 34,
+      "name": "Verses GT (Jacques Greene and Nosaj Thing)",
+      "albums": [
+        {
+          "album_id": 42,
+          "title": "Verses GT",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "house",
+            "techno",
+            "Los Angeles",
+            "California",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 35,
+      "name": "Blue Earth Sound",
+      "albums": [
+        {
+          "album_id": 43,
+          "title": "Cicero Nights",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "chicago jazz",
+            "jazz",
+            "alternative jazz",
+            "cinematic",
+            "cinematic soul",
+            "nu-jazz",
+            "Chicago",
+            "Illinois",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 36,
+      "name": "Joel Lyssarides & Georgios Prokopiou",
+      "albums": [
+        {
+          "album_id": 46,
+          "title": "Arcs & Rivers",
+          "year": 2024,
+          "rating": "good",
+          "tags": [
+            "jazz",
+            "fusion",
+            "fusion jazz",
+            "Stockholm",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 37,
+      "name": "Μαρία Παπαγεωργίου (Maria Papageorgiou)",
+      "albums": [
+        {
+          "album_id": 47,
+          "title": "Ο Τελευταίος Αναλογικός Έρωτας",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "Éntekhno",
+            "Greek Folk",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 49,
+          "title": "Μνήμη",
+          "year": 2016,
+          "rating": "good",
+          "tags": [
+            "Éntekhno",
+            "Greek Folk",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 38,
+      "name": "Malakoff Kowalski",
+      "albums": [
+        {
+          "album_id": 48,
+          "title": "My First Piano",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Jazz",
+            "Neoclassical"
+          ]
+        }
+      ]
     }
   ]
 }
