@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Questions</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2em;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+        .combobox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5em;
+        }
+        .combobox-item {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 0.5em;
+            font-weight: bold;
+            color: #555;
+        }
+        select {
+            padding: 0.75em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+            background-color: #fafafa;
+            cursor: pointer;
+        }
+        select:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+        }
+        .copy-button {
+            display: block;
+            width: 200px;
+            margin: 2em auto 0;
+            padding: 1em;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            text-align: center;
+        }
+        .copy-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Select Interview Questions</h1>
+    <p>Choose a unique question from each of the eight dropdown menus.</p>
+    <div class="combobox-group" id="combobox-group">
+        </div>
+    <button class="copy-button" onclick="copyQuestions()">Copy Questions</button>
+</div>
+
+<script>
+    const questionsFile = 'questions.txt';
+    const numComboboxes = 8;
+    const comboboxGroup = document.getElementById('combobox-group');
+
+    // Asynchronously fetch the questions from the text file
+    fetch(questionsFile)
+        .then(response => response.text())
+        .then(data => {
+            const questions = data.split('\n').filter(q => q.trim() !== '');
+            
+            // Generate the comboboxes dynamically
+            for (let i = 1; i <= numComboboxes; i++) {
+                const comboboxItem = document.createElement('div');
+                comboboxItem.className = 'combobox-item';
+
+                const label = document.createElement('label');
+                label.htmlFor = `q${i}`;
+                label.textContent = `Question ${i}`;
+
+                const select = document.createElement('select');
+                select.id = `q${i}`;
+                select.name = `question${i}`;
+
+                const defaultOption = document.createElement('option');
+                defaultOption.value = "";
+                defaultOption.disabled = true;
+                defaultOption.selected = true;
+                defaultOption.textContent = "Select a question...";
+                select.appendChild(defaultOption);
+
+                questions.forEach(questionText => {
+                    const option = document.createElement('option');
+                    option.value = questionText.trim();
+                    option.textContent = questionText.trim();
+                    select.appendChild(option);
+                });
+
+                comboboxItem.appendChild(label);
+                comboboxItem.appendChild(select);
+                comboboxGroup.appendChild(comboboxItem);
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching questions:', error);
+            comboboxGroup.innerHTML = "<p style='color:red;'>Could not load questions. Please ensure 'questions.txt' exists.</p>";
+        });
+
+    // New JavaScript function to handle copying
+    function copyQuestions() {
+        const selects = document.querySelectorAll('.combobox-item select');
+        let selectedQuestions = [];
+
+        selects.forEach(select => {
+            if (select.value) {
+                selectedQuestions.push(select.value);
+            }
+        });
+
+        const textToCopy = selectedQuestions.join('\n\n');
+
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Questions copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+                alert('Failed to copy questions.');
+            });
+        } else {
+            // Fallback for older browsers
+            const textArea = document.createElement('textarea');
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                alert('Questions copied to clipboard!');
+            } catch (err) {
+                console.error('Fallback copy failed: ', err);
+                alert('Failed to copy questions. Please copy manually.');
+            }
+            document.body.removeChild(textArea);
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -928,6 +928,62 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 39,
+      "name": "Tzusing",
+      "albums": [
+        {
+          "album_id": 50,
+          "title": "東方不敗",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "ambient",
+            "experimental",
+            "house",
+            "industrial",
+            "techno"
+          ]
+        },
+        {
+          "album_id": 51,
+          "title": "绿帽 Green Hat",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "experimental",
+            "house",
+            "industrial",
+            "techno",
+            "Shanghai"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 40,
+      "name": "Baauer",
+      "albums": [
+        {
+          "album_id": 52,
+          "title": "Aa",
+          "year": 2016,
+          "rating": "perfect",
+          "tags": [
+            "bass music",
+            "dance music",
+            "electronic",
+            "trap",
+            "beats",
+            "hip hop instrumentals",
+            "Brooklyn",
+            "New York"
+          ]
+        }
+      ]
     }
   ]
 }
