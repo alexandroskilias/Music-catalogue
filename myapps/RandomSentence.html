@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Sentence Generator</title>
+</head>
+<body>
+    <button onclick="generateAndCopySentence()">Generate and Copy Sentence</button>
+    <p id="randomSentence"></p>
+
+    <script>
+        const greetings = ["Hi there", "Hello", "Hey", "Greetings", "Hiya"];
+        const wishes = ["hope all ok", "hope you're well", "hope everything's good", "hope all is well", "hope you're doing great"];
+        const thanks = ["Thanks for sending your music over", "Thank you for sharing your music", "Appreciate you sending your music", "Thanks for sharing", "Grateful for your music"];
+        const closings = ["All the best", "Best regards", "Take care", "Cheers", "Best wishes"];
+
+        function getRandomElement(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+
+        function generateAndCopySentence() {
+            const randomGreeting = getRandomElement(greetings);
+            const randomWish = getRandomElement(wishes);
+            const randomThanks = getRandomElement(thanks);
+            const randomClosing = getRandomElement(closings);
+
+            const sentence = `${randomGreeting}, ${randomWish}! ${randomThanks}! ${randomClosing}!`;
+            document.getElementById('randomSentence').textContent = sentence;
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(sentence).then(() => {
+                //alert('Sentence copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+    </script>
+</body>
+</html>

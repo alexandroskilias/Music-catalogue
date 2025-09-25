@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate HTML Output</title>
+    <script>
+        function generateOutput() {
+            // Get input values
+            const instagram = document.getElementById('instagram').value;
+            const facebook = document.getElementById('facebook').value;
+            const playlistSelect = document.getElementById('playlist-select');
+            const playlistUrl = playlistSelect.value;
+            const playlistName = playlistSelect.options[playlistSelect.selectedIndex].text;
+            const artist = document.getElementById('artist').value;
+
+            // Generate output
+            const output = `<!-- wp:paragraph -->
+<p>Follow ${artist}<br><a href="${instagram}" target="_blank" rel="noreferrer noopener">Instagram</a>/<a href="${facebook}" target="_blank" rel="noreferrer noopener">Facebook</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Follow our Spotify playlist <a href="${playlistUrl}" target="_blank" rel="noreferrer noopener">${playlistName}</a> feat. ${artist}</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:shortcode -->
+[spotify ${playlistUrl}]
+<!-- /wp:shortcode --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->`;
+
+            // Display output
+            document.getElementById('output').textContent = output;
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(output).then(() => {
+                //alert('Output copied to clipboard!');
+            }).catch(err => {
+                console.error('Error copying to clipboard: ', err);
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>HTML Generator</h1>
+    <label for="instagram">Instagram URL:</label>
+    <input type="text" id="instagram" placeholder="https://www.instagram.com/qrauer/"><br><br>
+
+    <label for="facebook">Facebook URL:</label>
+    <input type="text" id="facebook" placeholder="https://www.facebook.com/qrauer/"><br><br>
+
+    <label for="playlist-select">Select Playlist:</label>
+    <select id="playlist-select">
+        <option value="https://open.spotify.com/playlist/116i7AYBjprBdvUBfkjgxl">Hollow Nest</option>
+        <option value="https://open.spotify.com/playlist/7a8HkLdWrnFB9KJdr0hevt">Club Grooves Unleashed</option>
+        <option value="https://open.spotify.com/playlist/3osa5ewU3oxo30TBjz0eEk">Guitar Mayhem</option>
+        <option value="https://open.spotify.com/playlist/2KF4UU9OiDXUWqdb7X0jiT">Vaporized Memories</option>
+        <option value="https://open.spotify.com/playlist/7k5a2lllJGZrdanL4dW88H">Trip into the Hop</option>
+        <option value="https://open.spotify.com/playlist/3ziysoxbvTnFMZHsib0OPL">Cinnamon Orange</option>
+        <option value="https://open.spotify.com/playlist/0JA2E87DbgUh7kSfXVStsJ">Sonnets for the Big Screen</option>
+        <option value="https://open.spotify.com/playlist/3AG0z8YDOIeXLwXRgo3q4p">Verse Eclectic</option>
+        <option value="https://open.spotify.com/playlist/089319GUFPkFm6Vhn6Si6F">Reinvented Eclectic</option>
+        <option value="https://open.spotify.com/playlist/1cdwV3ZcvTL74Ww6OUiNCe">Waves Eclectic</option>
+        <option value="https://open.spotify.com/playlist/1Pg9IFqa0DCn6qll7kz000">Metamorphosis</option>
+        <option value="https://open.spotify.com/playlist/7EVZcyL5pRV7S7vvfxzXM4">Amplify Eclectic</option>
+        <option value="https://open.spotify.com/playlist/6T87iBxp6G0Lrae9riuxzo">Dark Chocolate</option>
+		<option value="https://open.spotify.com/playlist/0a0CibxVs3Jc5hGft5SFp8">Nomadic Echoes</option>		
+		<option value="https://open.spotify.com/playlist/7osTXppvPwVWGLi59957Zm">HHP</option>
+		<option value="https://open.spotify.com/playlist/3yBBFKuwZBKBDXBAA4stUm">Psychedelic Dream Circuit</option>
+		<option value="https://open.spotify.com/playlist/4kX9RvILwjyVnsJer1ctnY">Indie Humming Wires</option>
+		
+    </select><br><br>
+
+    <label for="artist">Artist Name:</label>
+    <input type="text" id="artist" placeholder="qrauer"><br><br>
+
+    <button onclick="generateOutput()">Generate HTML</button>
+
+    <h2>Generated Output:</h2>
+    <pre id="output" style="background: #f4f4f4; padding: 10px; border: 1px solid #ccc;"></pre>
+</body>
+</html>
