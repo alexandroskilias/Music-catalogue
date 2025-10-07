@@ -984,6 +984,228 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 41,
+      "name": "Octavian",
+      "albums": [
+        {
+          "album_id": 53,
+          "title": "Spaceman",
+          "year": 2018,
+          "rating": "good",
+          "tags": [
+            "Hip Hop",
+            "Grime"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 42,
+      "name": "Todd Terje",
+      "albums": [
+        {
+          "album_id": 54,
+          "title": "It's Album Time",
+          "year": 2014,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Jazz",
+            "Disco",
+            "House",
+            "Future Jazz",
+            "Fusion",
+            "Fusion Jazz",
+            "Nu-disco",
+            "electro disco",
+            "space disco",
+            "exotica",
+            "lounge"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 43,
+      "name": "Asger Baden",
+      "albums": [
+        {
+          "album_id": 55,
+          "title": "If The Music Stops, They'll Eat Him Up",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Neo-Classical"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 44,
+      "name": "Cosima Olu",
+      "albums": [
+        {
+          "album_id": 56,
+          "title": "In Between",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "indie rnb",
+            "nu jazz",
+            "soul",
+            "pop",
+            "Stockholm",
+            "Sweden"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 45,
+      "name": "Plants That Grow At Night",
+      "albums": [
+        {
+          "album_id": 57,
+          "title": "Frogging the Cosmos - Act 1",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Funk",
+            "Neo-Soul",
+            "Psychedelic Rock",
+            "Acid-Jazz",
+            "fusion jazz",
+            "Vienna",
+            "Austria"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 46,
+      "name": "DJ Trystero",
+      "albums": [
+        {
+          "album_id": 58,
+          "title": "Castillo",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "house",
+            "ambient",
+            "ambient electronic",
+            "ambient techno",
+            "lofi",
+            "minimal",
+            "techno",
+            "Japan"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 47,
+      "name": "Polygon Window (Aphex Twin)",
+      "albums": [
+        {
+          "album_id": 59,
+          "title": "Surfing On Sine Waves",
+          "year": 1993,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "Acid techno",
+            "ambient techno",
+            "IDM",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 48,
+      "name": "Philipp Maria Rosenberg",
+      "albums": [
+        {
+          "album_id": 60,
+          "title": "Die Welt hat das genialste Streben",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "Jazz"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 49,
+      "name": "Lloyd Price",
+      "albums": [
+        {
+          "album_id": 61,
+          "title": "The Exciting Lloyd Price",
+          "year": 1959,
+          "rating": "bad",
+          "tags": [
+            "Funk",
+            "Soul",
+            "Rock and roll",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 50,
+      "name": "Alexander Kowalski",
+      "albums": [
+        {
+          "album_id": 62,
+          "title": "Cycles",
+          "year": 2018,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "techno"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 51,
+      "name": "Mac DeMarco",
+      "albums": [
+        {
+          "album_id": 63,
+          "title": "Rock and Roll Night Club",
+          "year": 2012,
+          "rating": "bad",
+          "tags": [
+            "Indie rock",
+            "soft rock",
+            "garage rock",
+            "pop rock",
+            "hypnagogic pop",
+            "jangle pop",
+            "lo-fi",
+            "psychedelic funk"
+          ]
+        },
+        {
+          "album_id": 64,
+          "title": "2",
+          "year": 2012,
+          "rating": "perfect",
+          "tags": [
+            "indie rock",
+            "jangle pop"
+          ]
+        }
+      ]
     }
   ]
 }
