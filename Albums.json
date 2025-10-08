@@ -1204,6 +1204,40 @@
             "indie rock",
             "jangle pop"
           ]
+        },
+        {
+          "album_id": 65,
+          "title": "Salad Days",
+          "year": 2014,
+          "rating": "perfect",
+          "tags": [
+            "Indie rock",
+            "jangle pop",
+            "psychedelic pop",
+            "soft rock",
+            "lo-fi"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 52,
+      "name": "MAVAREL",
+      "albums": [
+        {
+          "album_id": 66,
+          "title": "No Restrictions",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "house",
+            "idm",
+            "experimental electronic",
+            "leftfield",
+            "Bern",
+            "Switzerland"
+          ]
         }
       ]
     }
