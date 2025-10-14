@@ -1217,6 +1217,16 @@
             "soft rock",
             "lo-fi"
           ]
+        },
+        {
+          "album_id": 67,
+          "title": "Another One",
+          "year": 2015,
+          "rating": "perfect",
+          "tags": [
+            "indie rock",
+            "jangle pop"
+          ]
         }
       ]
     },
@@ -1237,6 +1247,122 @@
             "leftfield",
             "Bern",
             "Switzerland"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 53,
+      "name": "Lex Amor",
+      "albums": [
+        {
+          "album_id": 68,
+          "title": "Government Tropicana",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "hip-hop/rap",
+            "r&b",
+            "soul",
+            "London",
+            "UK"
+          ]
+        },
+        {
+          "album_id": 69,
+          "title": "Forward Ever",
+          "year": 2024,
+          "rating": "good",
+          "tags": [
+            "hip-hop/rap",
+            "r&b",
+            "soul",
+            "jazz",
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 54,
+      "name": "Johannes Arzberger",
+      "albums": [
+        {
+          "album_id": 70,
+          "title": "Non Più",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "jazz",
+            "urban jazz",
+            "nu jazz",
+            "hip hop",
+            "beats",
+            "Brunswick",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 55,
+      "name": "Abigail Vettese",
+      "albums": [
+        {
+          "album_id": 71,
+          "title": "Terror Management Theory",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "experimental",
+            "idm",
+            "avant-garde",
+            "chaotic noise",
+            "industrial",
+            "Philadelphia",
+            "Pennsylvania"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 56,
+      "name": "Teebs",
+      "albums": [
+        {
+          "album_id": 72,
+          "title": "Ardour",
+          "year": 2010,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "experimental",
+            "Brainfeeder",
+            "Los Angeles",
+            "California"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 57,
+      "name": "No Terror In The Bang",
+      "albums": [
+        {
+          "album_id": 73,
+          "title": "Heal",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "metal",
+            "alternative metal",
+            "cinematic metal",
+            "female fronted metal",
+            "modern metal",
+            "progressive metal",
+            "Rouen",
+            "France"
           ]
         }
       ]
