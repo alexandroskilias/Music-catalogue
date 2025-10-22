@@ -1227,6 +1227,46 @@
             "indie rock",
             "jangle pop"
           ]
+        },
+        {
+          "album_id": 74,
+          "title": "This Old Dog",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "indie rock",
+            "jangle pop",
+            "lo-fi"
+          ]
+        },
+        {
+          "album_id": 75,
+          "title": "Here Comes the Cowboy",
+          "year": 2019,
+          "rating": "perfect",
+          "tags": [
+            "Indie rock",
+            "indie folk"
+          ]
+        },
+        {
+          "album_id": 76,
+          "title": "Five Easy Hot Dogs",
+          "year": 2023,
+          "rating": "good",
+          "tags": [
+            "Instrumental rock"
+          ]
+        },
+        {
+          "album_id": 77,
+          "title": "Guitar",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "indie rock",
+            "jangle pop"
+          ]
         }
       ]
     },
