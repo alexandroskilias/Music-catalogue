@@ -1024,6 +1024,16 @@
             "exotica",
             "lounge"
           ]
+        },
+        {
+          "album_id": 78,
+          "title": "It's the Arps",
+          "year": 2012,
+          "rating": "good",
+          "tags": [
+            "House",
+            "Nu-disco"
+          ]
         }
       ]
     },
