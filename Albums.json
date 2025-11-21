@@ -1416,6 +1416,297 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 58,
+      "name": "Kavinsky",
+      "albums": [
+        {
+          "album_id": 79,
+          "title": "OutRun",
+          "year": 2013,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "French house",
+            "synthwave"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 59,
+      "name": "VASSIŁINA",
+      "albums": [
+        {
+          "album_id": 80,
+          "title": "Femmeland",
+          "year": 2024,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "avant-pop",
+            "experimental electronic",
+            "London",
+            "UK",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 60,
+      "name": "Konstantinos Petropoulos",
+      "albums": [
+        {
+          "album_id": 81,
+          "title": "Χλωμή Μπλε Κουκκίδα",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "folk rock country",
+            "rock",
+            "acoustic",
+            "alternative",
+            "blues",
+            "country",
+            "folk rock",
+            "indie country",
+            "indie rock",
+            "pop",
+            "rock",
+            "Athens"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 61,
+      "name": "Departure",
+      "albums": [
+        {
+          "album_id": 82,
+          "title": "Acá y Allá",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Colombia",
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 62,
+      "name": "james K",
+      "albums": [
+        {
+          "album_id": 83,
+          "title": "PET",
+          "year": 2016,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "New York"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 63,
+      "name": "LSDXOXO",
+      "albums": [
+        {
+          "album_id": 84,
+          "title": "RA.1012",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Podcast",
+            "Resident Advisor"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 64,
+      "name": "Şatellites",
+      "albums": [
+        {
+          "album_id": 85,
+          "title": "Şatellites",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "world",
+            "funk",
+            "groove",
+            "psych",
+            "psychedelic",
+            "psychedelic funk",
+            "turkish",
+            "Haifa",
+            "Israel"
+          ]
+        },
+        {
+          "album_id": 86,
+          "title": "Aylar",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "turkish funk",
+            "turkish psychedelic",
+            "world",
+            "global music",
+            "psychedelic",
+            "turkish",
+            "Haifa",
+            "Israel"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 65,
+      "name": "Hyphen Dash",
+      "albums": [
+        {
+          "album_id": 87,
+          "title": "LATE",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "contemporary jazz",
+            "jazz",
+            "fusion",
+            "hip-hop",
+            "instrumental",
+            "Kyiv",
+            "Ukraine"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 66,
+      "name": "Serafim Tsotsonis",
+      "albums": [
+        {
+          "album_id": 88,
+          "title": "Believers",
+          "year": 2019,
+          "rating": "good",
+          "tags": [
+            "dark wave",
+            "electronic",
+            "ambient",
+            "experimental",
+            "film music",
+            "Corinth",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 67,
+      "name": "Peyman Yazdanian",
+      "albums": [
+        {
+          "album_id": 89,
+          "title": "Live in Lecce",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "soundtrack",
+            "avant garde classical",
+            "classical",
+            "Live",
+            "Solo Piano",
+            "Piano",
+            "Iran",
+            "Paris",
+            "France"
+          ]
+        },
+        {
+          "album_id": 90,
+          "title": "Just About Cinema",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "classical",
+            "soundtrack",
+            "film music",
+            "movie score",
+            "piano",
+            "solo piano",
+            "Iran",
+            "Paris",
+            "France"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 68,
+      "name": "Brian Tyler",
+      "albums": [
+        {
+          "album_id": 91,
+          "title": "Nuremberg (Original Motion Picture Soundtrack)",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Original Motion Picture Soundtrack",
+            "Classical"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 69,
+      "name": "Sabrina Claudio",
+      "albums": [
+        {
+          "album_id": 92,
+          "title": "No Rain, No Flowers",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Neo Soul",
+            "Contemporary R&B",
+            "Pop",
+            "Miami",
+            "Florida",
+            "USA"
+          ]
+        },
+        {
+          "album_id": 93,
+          "title": "Truth Is",
+          "year": 2019,
+          "rating": "perfect",
+          "tags": [
+            "Downtempo",
+            "Contemporary R&B",
+            "Pop"
+          ]
+        },
+        {
+          "album_id": 94,
+          "title": "About Time",
+          "year": 2017,
+          "rating": "good",
+          "tags": [
+            "Contemporary R&B",
+            "Pop"
+          ]
+        }
+      ]
     }
   ]
 }
