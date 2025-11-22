@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Album Collection</title>
+    <title>Album Collection by Secta The Dog</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f3f4f6;
+        }
+        /* Custom scrollbar for table container if needed */
+        .table-scroll-container {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
         }
     </style>
 </head>
@@ -17,8 +22,8 @@
     <div class="container mx-auto max-w-7xl p-6 sm:p-12 bg-white rounded-3xl shadow-xl">
 
         <header class="text-center py-8">
-            <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">Album Collection</h1>
-            <p class="text-xl text-gray-600 mt-2">Explore and filter your favorite albums.</p>
+            <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">Album Collection by Secta The Dog 💿</h1>
+            <p class="text-xl text-gray-600 mt-2">The nap playlist while belly-up dreaming uncatchable chipmunks.</p>
         </header>
 
         <div class="bg-gray-50 p-6 rounded-2xl shadow-inner mb-8 transition-all duration-300 ease-in-out">
@@ -57,7 +62,7 @@
             </div>
         </div>
 
-        <div id="album-list">
+        <div id="album-list" class="table-scroll-container">
             </div>
 
         <div id="status-message" class="text-center text-gray-500 mt-8">
@@ -70,7 +75,7 @@
         // Use an IIFE (Immediately Invoked Function Expression) to avoid polluting the global scope
         (async function() {
             let allAlbums = [];
-            let allArtistsData = {}; // New object to store artist data with average ratings
+            let allArtistsData = {}; // Object to store artist data with average ratings
             const albumList = document.getElementById('album-list');
             const statusMessage = document.getElementById('status-message');
             const artistFilter = document.getElementById('artist-filter');
@@ -94,7 +99,6 @@
 
             /**
              * Helper function to convert a numerical average rating to a text rating and color.
-             * This function implements the "round up" logic.
              * @param {number} numericalRating The average numerical rating.
              * @returns {object} An object with the text and Tailwind color class for the rating.
              */
@@ -116,6 +120,7 @@
                 statusMessage.classList.remove('hidden');
                 statusMessage.innerHTML = '<p>Loading albums...</p>';
                 try {
+                    // NOTE: This assumes an 'Albums.json' file exists relative to the HTML file.
                     const response = await fetch('Albums.json');
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
@@ -147,35 +152,35 @@
             }
 
             /**
-             * Helper function to create the HTML for a single album card.
+             * Helper function to create the HTML for a single album table row (NEW COMPACT DESIGN).
              * @param {Object} album The album object.
-             * @returns {string} The HTML string for the album card.
+             * @returns {string} The HTML string for the album table row.
              */
-            function createAlbumCardHtml(album) {
+            function createAlbumRowHtml(album) {
                 const tagsHtml = album.tags.map(tag => 
-                    `<span class="tag-clickable bg-gray-200 text-gray-700 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full cursor-pointer hover:bg-gray-300 transition-colors duration-150 ease-in-out">${tag}</span>`
+                    `<span class="tag-clickable bg-gray-200 text-gray-700 text-xs font-medium mr-1 px-2 py-0.5 rounded-full cursor-pointer hover:bg-gray-300 transition-colors duration-150 ease-in-out whitespace-nowrap">${tag}</span>`
                 ).join('');
 
                 return `
-                    <div class="bg-white p-6 rounded-xl shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl">
-                        <div class="flex items-center space-x-4 mb-4">
-                            <h3 class="text-xl font-bold text-gray-900">${album.title}</h3>
-                            <span class="rating-clickable text-sm font-medium px-2 py-1 rounded-full text-white cursor-pointer ${getRatingColor(album.rating)}" data-rating="${album.rating}">
+                    <tr class="border-b hover:bg-gray-50 transition-colors duration-150 ease-in-out">
+                        <td class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">${album.title}</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-gray-600">${album.year}</td>
+                        <td class="px-6 py-4">
+                            <span class="rating-clickable text-xs font-medium px-2.5 py-1 rounded-full text-white cursor-pointer ${getRatingColor(album.rating)}" data-rating="${album.rating.toLowerCase()}">
                                 ${album.rating.charAt(0).toUpperCase() + album.rating.slice(1)}
                             </span>
-                        </div>
-                        <p class="text-gray-600 mb-2">
-                            <span class="font-semibold">Year:</span> ${album.year}
-                        </p>
-                        <div class="flex flex-wrap mt-4">
-                            ${tagsHtml}
-                        </div>
-                    </div>
+                        </td>
+                        <td class="px-6 py-4">
+                            <div class="flex flex-wrap gap-1">
+                                ${tagsHtml}
+                            </div>
+                        </td>
+                    </tr>
                 `;
             }
 
             /**
-             * Renders a list of albums to the DOM, grouped by artist, with average ratings.
+             * Renders a list of albums to the DOM, grouped by artist, with average ratings (NEW COMPACT DESIGN).
              * @param {Array} albumsToRender The array of album objects to display.
              */
             function renderAlbums(albumsToRender) {
@@ -208,18 +213,46 @@
                     const artistRating = getDisplayRating(numericalAverage);
                     
                     const artistGroup = document.createElement('div');
-                    artistGroup.classList.add('mb-8');
-                    artistGroup.innerHTML = `
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    artistGroup.classList.add('mb-10');
+                    
+                    // Artist Header and Rating
+                    artistGroup.innerHTML += `
+                        <h2 class="text-3xl font-extrabold text-gray-800 mb-4 flex items-center bg-gray-100 p-3 rounded-t-xl sticky top-0 z-10 border-b-4 border-gray-200">
                             ${artist}
-                            <span class="rating-clickable text-base font-normal ml-2 px-2 py-1 rounded-full text-white cursor-pointer ${artistRating.color}" data-rating="${artistRating.text.toLowerCase()}">
+                            <span class="rating-clickable text-base font-normal ml-3 px-3 py-1 rounded-full text-white cursor-pointer ${artistRating.color}" data-rating="${artistRating.text.toLowerCase()}">
                                 ${artistRating.text}
                             </span>
                         </h2>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            ${sortedAlbums.map(createAlbumCardHtml).join('')}
+                    `;
+
+                    // Start the Table
+                    let tableHtml = `
+                        <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-b-lg">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Title
+                                        </th>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Year
+                                        </th>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Album Rating
+                                        </th>
+                                        <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                            Tags
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="bg-white divide-y divide-gray-200">
+                                    ${sortedAlbums.map(createAlbumRowHtml).join('')}
+                                </tbody>
+                            </table>
                         </div>
                     `;
+
+                    artistGroup.innerHTML += tableHtml;
                     albumList.appendChild(artistGroup);
                 }
 
