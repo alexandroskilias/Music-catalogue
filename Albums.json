@@ -1707,6 +1707,38 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 70,
+      "name": "Kepa Lehtinen",
+      "albums": [
+        {
+          "album_id": 95,
+          "title": "It is ok to be sad and dark",
+          "year": 2020,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Neoclassical",
+            "Film music",
+            "Theremin",
+            "Finland"
+          ]
+        },
+        {
+          "album_id": 96,
+          "title": "Dark",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Neoclassical",
+            "Film music",
+            "Theremin",
+            "Finland"
+          ]
+        }
+      ]
     }
   ]
 }
