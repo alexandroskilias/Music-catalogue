@@ -1750,6 +1750,19 @@
             "Theremin",
             "Finland"
           ]
+        },
+        {
+          "album_id": 100,
+          "title": "In The Heart Of Winter",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Neoclassical",
+            "Film music",
+            "Theremin",
+            "Finland"
+          ]
         }
       ]
     },
@@ -1783,6 +1796,215 @@
             "jazz",
             "Bologna",
             "Italy"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 73,
+      "name": "Zbigniew Preisner",
+      "albums": [
+        {
+          "album_id": 101,
+          "title": "Requiem for My Friend",
+          "year": 1998,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Contemporary",
+            "Poland"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 74,
+      "name": "Αλεξάνδρα Μαρκοπούλου",
+      "albums": [
+        {
+          "album_id": 102,
+          "title": "Όριο",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "Éntekhno",
+            "Greek"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 75,
+      "name": "Μαρία Κουτσουρλή",
+      "albums": [
+        {
+          "album_id": 103,
+          "title": "Μια Άλλη Εκδοχή",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "Pop",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 76,
+      "name": "VAAGUE",
+      "albums": [
+        {
+          "album_id": 104,
+          "title": "Oktopus Mekaniks",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Drum and bass",
+            "uk garage",
+            "electronic",
+            "jungle",
+            "post dubstep",
+            "jazz",
+            "Brussels",
+            "Belgium"
+          ]
+        },
+        {
+          "album_id": 105,
+          "title": "Vaague",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "Drum and bass",
+            "uk garage",
+            "electronic",
+            "jungle",
+            "post dubstep",
+            "jazz",
+            "Brussels",
+            "Belgium"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 77,
+      "name": "Guedra Guedra",
+      "albums": [
+        {
+          "album_id": 106,
+          "title": "MUTANT",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "afrofuturism",
+            "bass",
+            "house",
+            "tropical bass",
+            "Casablanca",
+            "Morocco"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 78,
+      "name": "Luca Gasperoni",
+      "albums": [
+        {
+          "album_id": 107,
+          "title": "Burnout certified",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "hip hop",
+            "beats",
+            "downtempo",
+            "trip hop",
+            "Rimini",
+            "Italy"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 79,
+      "name": "Akkiles82",
+      "albums": [
+        {
+          "album_id": 108,
+          "title": "CyberNation Part 1",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "electronic rock",
+            "cyberpunk",
+            "dystopian",
+            "synthwave",
+            "darksynth",
+            "Glasgow",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 80,
+      "name": "Jesse Franklin Wood",
+      "albums": [
+        {
+          "album_id": 109,
+          "title": "The Prodigal Father (Lofi Remix)",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "lofi",
+            "beats",
+            "downtempo",
+            "electronica"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 81,
+      "name": "MOb",
+      "albums": [
+        {
+          "album_id": 110,
+          "title": "MOb 1",
+          "year": 2023,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "jazz",
+            "punk",
+            "dark jazz",
+            "drone ambient",
+            "fusion",
+            "jazz",
+            "Athens",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 111,
+          "title": "II",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "jazz",
+            "punk",
+            "dark jazz",
+            "drone ambient",
+            "fusion",
+            "jazz",
+            "Athens",
+            "Greece"
           ]
         }
       ]
