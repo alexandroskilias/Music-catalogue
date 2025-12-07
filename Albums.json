@@ -2008,6 +2008,109 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 82,
+      "name": "Dani Kim",
+      "albums": [
+        {
+          "album_id": 112,
+          "title": "VISLA FM | 12.01.25",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Resident Advisor Mix Of The Day",
+            "Seoul",
+            "VISLA FM",
+            "bass",
+            "breaks",
+            "house"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 83,
+      "name": "GMS",
+      "albums": [
+        {
+          "album_id": 113,
+          "title": "No Rules",
+          "year": 2002,
+          "rating": "perfect",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 84,
+      "name": "Koxbox",
+      "albums": [
+        {
+          "album_id": 114,
+          "title": "The Scanner",
+          "year": 2015,
+          "rating": "good",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 85,
+      "name": "X-Dream",
+      "albums": [
+        {
+          "album_id": 115,
+          "title": "Irritant",
+          "year": 2002,
+          "rating": "perfect",
+          "tags": [
+            "Techno",
+            "Psytrance"
+          ]
+        },
+        {
+          "album_id": 117,
+          "title": "We Interface",
+          "year": 2004,
+          "rating": "bad",
+          "tags": [
+            "Techno",
+            "Psytrance",
+            "Electro"
+          ]
+        },
+        {
+          "album_id": 118,
+          "title": "Radio",
+          "year": 1998,
+          "rating": "perfect",
+          "tags": [
+            "Goa Trance",
+            "Psytrance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 86,
+      "name": "Man With No Name",
+      "albums": [
+        {
+          "album_id": 116,
+          "title": "Moment Of Truth",
+          "year": 1996,
+          "rating": "perfect",
+          "tags": [
+            "Goa Trance",
+            "Trance"
+          ]
+        }
+      ]
     }
   ]
 }
