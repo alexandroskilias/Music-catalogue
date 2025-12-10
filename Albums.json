@@ -2111,6 +2111,54 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 87,
+      "name": "Philip Glass",
+      "albums": [
+        {
+          "album_id": 119,
+          "title": "Cassandra's Dream",
+          "year": 2007,
+          "rating": "perfect",
+          "tags": [
+            "Original Motion Picture Soundtrack",
+            "Classical",
+            "Minimal",
+            "Neo-Classical"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 88,
+      "name": "Hallucinogen",
+      "albums": [
+        {
+          "album_id": 120,
+          "title": "Twisted",
+          "year": 1995,
+          "rating": "good",
+          "tags": [
+            "Goa Trance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 89,
+      "name": "Atriohm & Encephalopaticys",
+      "albums": [
+        {
+          "album_id": 121,
+          "title": "Ukalen",
+          "year": 2009,
+          "rating": "perfect",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
     }
   ]
 }
