@@ -2159,6 +2159,141 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 90,
+      "name": "Recue",
+      "albums": [
+        {
+          "album_id": 122,
+          "title": "Forward Is the Way Through",
+          "year": 2020,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "idm",
+            "experimental electronic",
+            "Helsinki",
+            "Finland"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 91,
+      "name": "Hux Flux",
+      "albums": [
+        {
+          "album_id": 123,
+          "title": "Division By Zero",
+          "year": 2003,
+          "rating": "bad",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 92,
+      "name": "Astral Projection",
+      "albums": [
+        {
+          "album_id": 124,
+          "title": "Trust In Trance",
+          "year": 1996,
+          "rating": "perfect",
+          "tags": [
+            "Goa Trance"
+          ]
+        },
+        {
+          "album_id": 125,
+          "title": "Trust in Trance 2",
+          "year": 1994,
+          "rating": "good",
+          "tags": [
+            "Goa Trance",
+            "Trance"
+          ]
+        },
+        {
+          "album_id": 126,
+          "title": "Dancing Galaxy",
+          "year": 1997,
+          "rating": "bad",
+          "tags": [
+            "Goa Trance"
+          ]
+        },
+        {
+          "album_id": 127,
+          "title": "For All Mankind",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Goa Trance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 93,
+      "name": "Barry Can't Swim",
+      "albums": [
+        {
+          "album_id": 128,
+          "title": "When Will We Land?",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "House",
+            "London",
+            "UK"
+          ]
+        },
+        {
+          "album_id": 130,
+          "title": "Loner",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 94,
+      "name": "Martian Arts",
+      "albums": [
+        {
+          "album_id": 129,
+          "title": "Ahsram",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "Psytrance",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 95,
+      "name": "Krumelur",
+      "albums": [
+        {
+          "album_id": 131,
+          "title": "Delete The Universe",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
     }
   ]
 }
