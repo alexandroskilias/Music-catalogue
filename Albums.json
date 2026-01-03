@@ -2294,6 +2294,124 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 96,
+      "name": "Babel Trio",
+      "albums": [
+        {
+          "album_id": 132,
+          "title": "The Island of Cretal",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Folk rock",
+            "Stoner",
+            "Psychedelic Rock",
+            "Crete",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 97,
+      "name": "Mavri Ellada",
+      "albums": [
+        {
+          "album_id": 133,
+          "title": "Negros Tou Moria",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Hip Hop",
+            "Trap"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 98,
+      "name": "Just Knite",
+      "albums": [
+        {
+          "album_id": 134,
+          "title": "DARKSOULS4HAZE",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "experimental",
+            "Hip Hop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 99,
+      "name": "André Manoukian",
+      "albums": [
+        {
+          "album_id": 135,
+          "title": "Anouch",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "Jazz"
+          ]
+        },
+        {
+          "album_id": 136,
+          "title": "Apatride",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "Jazz",
+            "Fold",
+            "World"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 100,
+      "name": "Prins Obi",
+      "albums": [
+        {
+          "album_id": 137,
+          "title": "The Secret Life of Mara Gibb",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "psychedelic rock",
+            "Electronic",
+            "Experimental",
+            "alt pop",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 101,
+      "name": "Ninajirachi",
+      "albums": [
+        {
+          "album_id": 138,
+          "title": "I Love My Computer",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "edm",
+            "electronic",
+            "hyper pop",
+            "dance pop",
+            "Sydney",
+            "Australia"
+          ]
+        }
+      ]
     }
   ]
 }
