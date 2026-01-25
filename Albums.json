@@ -2616,6 +2616,16 @@
             "Reggaeton",
             "Alt-Pop"
           ]
+        },
+        {
+          "album_id": 153,
+          "title": "Lux",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Latin Pop",
+            "Alt-Pop"
+          ]
         }
       ]
     },
