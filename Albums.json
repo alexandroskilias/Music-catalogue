@@ -2618,6 +2618,28 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 113,
+      "name": "Kristof",
+      "albums": [
+        {
+          "album_id": 152,
+          "title": "Το τέλος του παιχνιδιού",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "art pop",
+            "pop",
+            "avant-pop",
+            "cabaret",
+            "cabaret pop",
+            "synthpop",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
     }
   ]
 }
