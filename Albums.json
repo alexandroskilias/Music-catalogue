@@ -2412,6 +2412,212 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 102,
+      "name": "Noma",
+      "albums": [
+        {
+          "album_id": 139,
+          "title": "Navigator",
+          "year": 2000,
+          "rating": "good",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 103,
+      "name": "Valisia Odell",
+      "albums": [
+        {
+          "album_id": 140,
+          "title": "Shadow of a Dream",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Darkwave",
+            "Synthwave",
+            "ebm",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 104,
+      "name": "Max Cooper",
+      "albums": [
+        {
+          "album_id": 141,
+          "title": "On Being",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 105,
+      "name": "Electric Litany",
+      "albums": [
+        {
+          "album_id": 142,
+          "title": "Desires",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Alternative rock",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 106,
+      "name": "Teyana Taylor",
+      "albums": [
+        {
+          "album_id": 143,
+          "title": "K.T.S.E.",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Contemporary R&B"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 107,
+      "name": "Janelle Monáe",
+      "albums": [
+        {
+          "album_id": 144,
+          "title": "Dirty Computer",
+          "year": 2018,
+          "rating": "good",
+          "tags": [
+            "Contemporary R&B"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 108,
+      "name": "Fobi",
+      "albums": [
+        {
+          "album_id": 145,
+          "title": "Organic Sources",
+          "year": 2012,
+          "rating": "good",
+          "tags": [
+            "Psytrance"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 109,
+      "name": "Power Trip",
+      "albums": [
+        {
+          "album_id": 146,
+          "title": "Nightmare Logic",
+          "year": 2017,
+          "rating": "good",
+          "tags": [
+            "Metal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 110,
+      "name": "Moses Sumney",
+      "albums": [
+        {
+          "album_id": 147,
+          "title": "Aromanticism",
+          "year": 2017,
+          "rating": "good",
+          "tags": [
+            "alternative",
+            "r&b",
+            "indie pop",
+            "Asheville",
+            "North Carolina"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 111,
+      "name": "Eliza",
+      "albums": [
+        {
+          "album_id": 148,
+          "title": "A Real Romantic",
+          "year": 2018,
+          "rating": "good",
+          "tags": [
+            "Neo-Soul",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 112,
+      "name": "Rosalía",
+      "albums": [
+        {
+          "album_id": 149,
+          "title": "Los Ángeles",
+          "year": 2017,
+          "rating": "bad",
+          "tags": [
+            "Flamenco"
+          ]
+        },
+        {
+          "album_id": 150,
+          "title": "El Mal Querer",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Flamenco",
+            "Alt-Pop"
+          ]
+        },
+        {
+          "album_id": 151,
+          "title": "Motomami",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Hip Hop",
+            "Latin",
+            "Pop",
+            "Trap",
+            "Flamenco",
+            "Bachata",
+            "Reggaeton",
+            "Alt-Pop"
+          ]
+        }
+      ]
     }
   ]
 }
