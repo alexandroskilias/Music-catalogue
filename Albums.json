@@ -2621,7 +2621,7 @@
           "album_id": 153,
           "title": "Lux",
           "year": 2025,
-          "rating": "bad",
+          "rating": "good",
           "tags": [
             "Latin Pop",
             "Alt-Pop"
@@ -2647,6 +2647,146 @@
             "synthpop",
             "Athens",
             "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 114,
+      "name": "Meshuggah",
+      "albums": [
+        {
+          "album_id": 154,
+          "title": "obZen",
+          "year": 2008,
+          "rating": "good",
+          "tags": [
+            "Metal",
+            "Thrash",
+            "Experimental"
+          ]
+        },
+        {
+          "album_id": 156,
+          "title": "Koloss",
+          "year": 2012,
+          "rating": "perfect",
+          "tags": [
+            "Thrash",
+            "Death Metal",
+            "Progressive Metal",
+            "Avantgarde"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 115,
+      "name": "Miles Kane",
+      "albums": [
+        {
+          "album_id": 155,
+          "title": "Sunlight In The Shadows",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "pop rock",
+            "indie rock",
+            "alternative rock",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 116,
+      "name": "Barker",
+      "albums": [
+        {
+          "album_id": 157,
+          "title": "Stochastic Drift",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Techno",
+            "Ambient",
+            "Leftfield"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 117,
+      "name": "Rotting Christ",
+      "albums": [
+        {
+          "album_id": 158,
+          "title": "Pro Xristou",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "black metal",
+            "dark metal",
+            "extreme metal",
+            "heavy metal",
+            "metal",
+            "symphonic black metal",
+            "death metal",
+            "doom",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 118,
+      "name": "Blawan",
+      "albums": [
+        {
+          "album_id": 159,
+          "title": "SickElixir",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Berlin",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 119,
+      "name": "Omneon",
+      "albums": [
+        {
+          "album_id": 160,
+          "title": "Ascension",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "Goa Trance",
+            "Serbia"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 120,
+      "name": "Igorrr",
+      "albums": [
+        {
+          "album_id": 161,
+          "title": "Amen",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Avantgarde",
+            "Experimental",
+            "Electronic",
+            "Rock",
+			"France"
           ]
         }
       ]
