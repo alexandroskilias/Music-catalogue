@@ -2786,7 +2786,92 @@
             "Experimental",
             "Electronic",
             "Rock",
-			"France"
+            "France"
+          ]
+        },
+        {
+          "album_id": 165,
+          "title": "Spirituality and Distortion",
+          "year": 2020,
+          "rating": "perfect",
+          "tags": [
+            "Abstract",
+            "Breakcore",
+            "Experimental",
+            "Death Metal",
+            "France"
+          ]
+        },
+        {
+          "album_id": 166,
+          "title": "Savage Sinusoid",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "Breakcore",
+            "Black Metal",
+            "Death Metal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 121,
+      "name": "Weval",
+      "albums": [
+        {
+          "album_id": 162,
+          "title": "CHOROPHOBIA",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Leftfield",
+            "Tech House",
+            "Downtempo"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 122,
+      "name": "Geese",
+      "albums": [
+        {
+          "album_id": 163,
+          "title": "Getting Killed",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "alternative",
+            "rock",
+            "art punk",
+            "indie rock",
+            "pop rock",
+            "post punk",
+            "Brooklyn",
+            "New York",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 123,
+      "name": "Clark",
+      "albums": [
+        {
+          "album_id": 164,
+          "title": "Steep Stims",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Rave",
+            "Jungle",
+            "IDM",
+            "Leftfield",
+            "UK"
           ]
         }
       ]
