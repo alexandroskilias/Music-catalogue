@@ -2830,6 +2830,28 @@
             "Tech House",
             "Downtempo"
           ]
+        },
+        {
+          "album_id": 167,
+          "title": "The Weight",
+          "year": 2019,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "the Netherlands",
+            "Amsterdam"
+          ]
+        },
+        {
+          "album_id": 168,
+          "title": "Remember",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Leftfield",
+            "Downtempo"
+          ]
         }
       ]
     },
