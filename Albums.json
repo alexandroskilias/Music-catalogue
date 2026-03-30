@@ -2897,6 +2897,172 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 124,
+      "name": "David August",
+      "albums": [
+        {
+          "album_id": 169,
+          "title": "HYMNS",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Ambient",
+            "Piano",
+            "Neoclassical"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 125,
+      "name": "Thundercat",
+      "albums": [
+        {
+          "album_id": 170,
+          "title": "It Is What It Is",
+          "year": 2020,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "r&b",
+            "soul",
+            "bass",
+            "beats",
+            "Los Angeles",
+            "USA"
+          ]
+        },
+        {
+          "album_id": 171,
+          "title": "Drunk",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "r&b",
+            "soul",
+            "beats",
+            "cosmic",
+            "Los Angeles",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 126,
+      "name": "Bon Voyage Organisation",
+      "albums": [
+        {
+          "album_id": 172,
+          "title": "(Loin des) Rivages",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "jazz",
+            "cosmic jazz",
+            "indietronica",
+            "neojazz",
+            "Paris",
+            "France"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 127,
+      "name": "Tame Impala",
+      "albums": [
+        {
+          "album_id": 173,
+          "title": "Deadbeat",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "dance",
+            "psychedelia",
+            "House",
+            "Dance-pop",
+            "Tech House",
+            "Alt-Pop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 128,
+      "name": "Kangding Ray",
+      "albums": [
+        {
+          "album_id": 174,
+          "title": "Solens Arc",
+          "year": 2014,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Techno",
+            "Berlin",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 129,
+      "name": "alcnoir",
+      "albums": [
+        {
+          "album_id": 175,
+          "title": "relate",
+          "year": 2023,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "2-step",
+            "Future garage",
+            "post dubstep",
+            "ukg",
+            "Italy"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 130,
+      "name": "Christian Löffler",
+      "albums": [
+        {
+          "album_id": 176,
+          "title": "Until We Meet Again",
+          "year": 2026,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Deep House"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 131,
+      "name": "Sølyst",
+      "albums": [
+        {
+          "album_id": 177,
+          "title": "Spring",
+          "year": 2021,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Berlin",
+            "Germany"
+          ]
+        }
+      ]
     }
   ]
 }
