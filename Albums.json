@@ -3063,6 +3063,59 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 132,
+      "name": "Atabasca",
+      "albums": [
+        {
+          "album_id": 178,
+          "title": "Atabasca",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "world",
+            "funk",
+            "jazz",
+            "Italy"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 133,
+      "name": "Koda Kosmos",
+      "albums": [
+        {
+          "album_id": 179,
+          "title": "Fern",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Electronic"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 134,
+      "name": "Samplehound",
+      "albums": [
+        {
+          "album_id": 180,
+          "title": "A Good Man",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Neo-Classical",
+            "Secret Eclectic",
+            "piano",
+            "solo piano",
+            "UK"
+          ]
+        }
+      ]
     }
   ]
 }
