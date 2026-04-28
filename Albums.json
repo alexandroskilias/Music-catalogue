@@ -3116,6 +3116,224 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 135,
+      "name": "Lone",
+      "albums": [
+        {
+          "album_id": 181,
+          "title": "Hyperphantasia",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "hip hop",
+            "house",
+            "jungle",
+            "rave",
+            "techno",
+            "Nottingham",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 136,
+      "name": "Solone",
+      "albums": [
+        {
+          "album_id": 182,
+          "title": "Patience",
+          "year": 2019,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "House",
+            "Downtempo",
+            "trip hop",
+            "Clermont Ferrand",
+            "France"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 137,
+      "name": "Vijunns",
+      "albums": [
+        {
+          "album_id": 183,
+          "title": "Collapse",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Los Angeles",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 138,
+      "name": "Oliver Koletzki",
+      "albums": [
+        {
+          "album_id": 184,
+          "title": "12",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "techno",
+            "melodic techno",
+            "House",
+            "Deep House",
+            "Disco",
+            "retro Disco",
+            "electro",
+            "Indie Dance",
+            "Berlin",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 139,
+      "name": "Redwoods",
+      "albums": [
+        {
+          "album_id": 185,
+          "title": "Rapture",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "experimental",
+            "alternative rnb",
+            "ambient",
+            "dance",
+            "darkwave",
+            "experimental hip-hop",
+            "lofi",
+            "Rotterdam",
+            "Netherlands"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 140,
+      "name": "DEFT & Manni Dee",
+      "albums": [
+        {
+          "album_id": 186,
+          "title": "Swamp Season",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 141,
+      "name": "James Blake",
+      "albums": [
+        {
+          "album_id": 187,
+          "title": "Trying Times",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Contemporary R&B",
+            "Soul",
+            "Leftfield",
+            "Indie Pop",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 142,
+      "name": "KOAN Sound",
+      "albums": [
+        {
+          "album_id": 188,
+          "title": "Led by Ancient Light",
+          "year": 2023,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Bristol",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 143,
+      "name": "Mömi",
+      "albums": [
+        {
+          "album_id": 189,
+          "title": "PHANTOM",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Dark ambient",
+            "Experimental",
+            "Perugia",
+            "Italy"
+          ]
+        },
+        {
+          "album_id": 190,
+          "title": "ERA",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Perugia",
+            "Italy"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 144,
+      "name": "Pretty Baby",
+      "albums": [
+        {
+          "album_id": 191,
+          "title": "Layaway Plot",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "punk",
+            "post punk",
+            "post-rock",
+            "post-hardcore",
+            "Charlotte",
+            "North Carolina",
+            "USA"
+          ]
+        }
+      ]
     }
   ]
 }
