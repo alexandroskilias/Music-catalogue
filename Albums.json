@@ -3334,6 +3334,278 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 145,
+      "name": "Iron Butterfly",
+      "albums": [
+        {
+          "album_id": 192,
+          "title": "In-A-Gadda-Da-Vida",
+          "year": 1968,
+          "rating": "perfect",
+          "tags": [
+            "Acid rock",
+            "psychedelic rock",
+            "hard rock",
+            "San Diego",
+            "California",
+            "proto-metal"
+          ]
+        },
+        {
+          "album_id": 193,
+          "title": "Heavy",
+          "year": 1968,
+          "rating": "perfect",
+          "tags": [
+            "Acid rock",
+            "psychedelic rock",
+            "hard rock",
+            "proto-metal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 146,
+      "name": "Anish Kumar",
+      "albums": [
+        {
+          "album_id": 194,
+          "title": "AK Cuts: Vol. 3",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Disco House",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 147,
+      "name": "Cicely",
+      "albums": [
+        {
+          "album_id": 195,
+          "title": "Keep Hush Live London: Freshta Presents",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "Keep Hush",
+            "DJ set",
+            "Jungle",
+            "Rave",
+            "ukg",
+            "Techno",
+            "Electronic"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 148,
+      "name": "Juicy Romance",
+      "albums": [
+        {
+          "album_id": 196,
+          "title": "Boiler Room x AVA Festival 2024",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "DJ set",
+            "EDM"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 149,
+      "name": "Patrick Mason",
+      "albums": [
+        {
+          "album_id": 197,
+          "title": "Boiler Room x Glitch Festival 2023",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "Techno",
+            "DJ Set"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 150,
+      "name": "Decibella",
+      "albums": [
+        {
+          "album_id": 198,
+          "title": "Planet Wax: DrumObsession (Nov 2025)",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Jungle",
+            "DJ Set"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 151,
+      "name": "Mat Elliott",
+      "albums": [
+        {
+          "album_id": 199,
+          "title": "Video Games",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "fusion rock",
+            "neo-soul",
+            "r&b",
+            "soul",
+            "alternative pop",
+            "funk",
+            "yacht rock",
+            "Halifax",
+            "Nova Scotia"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 152,
+      "name": "A$AP Rocky",
+      "albums": [
+        {
+          "album_id": 200,
+          "title": "Don't Be Dumb",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Hip Hop",
+            "Trap"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 153,
+      "name": "Zela Margossian Quintet",
+      "albums": [
+        {
+          "album_id": 201,
+          "title": "Remedy",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Jazz",
+            "Piano jazz"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 154,
+      "name": "Permanent Bread",
+      "albums": [
+        {
+          "album_id": 202,
+          "title": "Music for Lost Book Stores, Volume 1",
+          "year": 2019,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Adelaide",
+            "Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 155,
+      "name": "KVPV",
+      "albums": [
+        {
+          "album_id": 203,
+          "title": "LP",
+          "year": 2020,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "G-House"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 156,
+      "name": "Malaa",
+      "albums": [
+        {
+          "album_id": 204,
+          "title": "Don Malaa",
+          "year": 2022,
+          "rating": "bad",
+          "tags": [
+            "G-House",
+            "bass House",
+            "House",
+            "Hip Hop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 157,
+      "name": "Yoann Le Dantec",
+      "albums": [
+        {
+          "album_id": 205,
+          "title": "Eiloc Nalem",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Jazz"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 158,
+      "name": "Mereba",
+      "albums": [
+        {
+          "album_id": 206,
+          "title": "The Jungle Is The Only Way Out",
+          "year": 2019,
+          "rating": "good",
+          "tags": [
+            "r&b"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 159,
+      "name": "DON WEST",
+      "albums": [
+        {
+          "album_id": 207,
+          "title": "Give Me All Your Love",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Funk",
+            "Soul",
+            "Australia"
+          ]
+        }
+      ]
     }
   ]
 }
