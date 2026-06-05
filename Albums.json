@@ -3606,6 +3606,284 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 160,
+      "name": "corto.alto",
+      "albums": [
+        {
+          "album_id": 208,
+          "title": "Bad With Names",
+          "year": 2023,
+          "rating": "good",
+          "tags": [
+            "jazz",
+            "neo-soul",
+            "Glasgow",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 161,
+      "name": "Obongjayar",
+      "albums": [
+        {
+          "album_id": 209,
+          "title": "Paradise Now",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "afrobeat",
+            "alternative",
+            "alternative rnb",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 162,
+      "name": "bricknasty",
+      "albums": [
+        {
+          "album_id": 210,
+          "title": "XONGZ አስቀያሚ ጡብ",
+          "year": 2024,
+          "rating": "good",
+          "tags": [
+            "rnb",
+            "Neo Soul",
+            "Dublin",
+            "Ireland"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 163,
+      "name": "SHOLTO",
+      "albums": [
+        {
+          "album_id": 211,
+          "title": "The Sirens",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "cinematic soul",
+            "soul",
+            "jazz",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 164,
+      "name": "Lizzie Berchie",
+      "albums": [
+        {
+          "album_id": 212,
+          "title": "Night Shift",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "soul",
+            "rnb",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 165,
+      "name": "Bel Cobain",
+      "albums": [
+        {
+          "album_id": 213,
+          "title": "Kizzy",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "soul",
+            "neo soul",
+            "rnb",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 166,
+      "name": "Demae",
+      "albums": [
+        {
+          "album_id": 214,
+          "title": "Deep Dive",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "rnb",
+            "soul",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 167,
+      "name": "Knucks",
+      "albums": [
+        {
+          "album_id": 215,
+          "title": "Alpha Place",
+          "year": 2022,
+          "rating": "bad",
+          "tags": [
+            "uk rap",
+            "Hip Hop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 168,
+      "name": "Joy Crookes",
+      "albums": [
+        {
+          "album_id": 216,
+          "title": "Skin",
+          "year": 2021,
+          "rating": "good",
+          "tags": [
+            "rnb",
+            "soul"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 169,
+      "name": "Reek0",
+      "albums": [
+        {
+          "album_id": 217,
+          "title": "Dance Tapes",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Afro House",
+            "House",
+            "Funky",
+            "uk garage",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 170,
+      "name": "Dua Lipa",
+      "albums": [
+        {
+          "album_id": 218,
+          "title": "Future Nostalgia",
+          "year": 2020,
+          "rating": "perfect",
+          "tags": [
+            "synth pop",
+            "Nu-disco",
+            "electro pop",
+            "electro disco"
+          ]
+        },
+        {
+          "album_id": 219,
+          "title": "Radical Optimism",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Dance-pop",
+            "electro pop",
+            "neo-psychedelia"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 171,
+      "name": "Fernandez",
+      "albums": [
+        {
+          "album_id": 220,
+          "title": "No Body",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "trip hop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 172,
+      "name": "Noisia",
+      "albums": [
+        {
+          "album_id": 221,
+          "title": "Split The Atom",
+          "year": 2010,
+          "rating": "perfect",
+          "tags": [
+            "Drum and bass",
+            "electro house",
+            "neurofunk",
+            "breakbeat",
+            "IDM"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 173,
+      "name": "The Electric Mandarine",
+      "albums": [
+        {
+          "album_id": 222,
+          "title": "One",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Jazz",
+            "Funk"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 174,
+      "name": "Boards of Canada",
+      "albums": [
+        {
+          "album_id": 223,
+          "title": "Inferno",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Downtempo",
+            "Ambient",
+            "IDM",
+            "Experimental"
+          ]
+        }
+      ]
     }
   ]
 }
