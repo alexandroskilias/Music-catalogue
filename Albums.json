@@ -3884,6 +3884,62 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 175,
+      "name": "Dauwd",
+      "albums": [
+        {
+          "album_id": 224,
+          "title": "Theory of Colours",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 176,
+      "name": "Snakes Of Russia",
+      "albums": [
+        {
+          "album_id": 225,
+          "title": "Swallowed Whole Through The Mouth Of Eternity",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "cinematic",
+            "dark ambient",
+            "darkbeats",
+            "darkwave",
+            "deathbeats",
+            "downtempo",
+            "industrial",
+            "Los Angeles",
+            "California"
+          ]
+        },
+        {
+          "album_id": 226,
+          "title": "True Surrender",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "beats",
+            "dark ambient",
+            "darkwave",
+            "deathbeats",
+            "downtempo",
+            "Los Angeles",
+            "USA"
+          ]
+        }
+      ]
     }
   ]
 }
