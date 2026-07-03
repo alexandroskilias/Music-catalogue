@@ -3940,6 +3940,121 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 177,
+      "name": "Sombre Lux",
+      "albums": [
+        {
+          "album_id": 227,
+          "title": "Doorways",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "ambient",
+            "dark",
+            "dark ambient",
+            "darksynth",
+            "darkwave",
+            "drone",
+            "deathbeats",
+            "Eugene",
+            "Oregon",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 178,
+      "name": "Brutalismus 3000",
+      "albums": [
+        {
+          "album_id": 228,
+          "title": "ULTRAKUNST",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "electronic",
+            "gabber",
+            "hardstyle",
+            "nugabber",
+            "early hardstyle",
+            "Berlin",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 179,
+      "name": "Temples",
+      "albums": [
+        {
+          "album_id": 229,
+          "title": "BLISS",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Psychedelic rock",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 180,
+      "name": "Lambert",
+      "albums": [
+        {
+          "album_id": 230,
+          "title": "Lambert",
+          "year": 2014,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Contemporary",
+            "Piano"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 181,
+      "name": "Arthur Hnatek",
+      "albums": [
+        {
+          "album_id": 231,
+          "title": "Adrift",
+          "year": 2024,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "microhouse",
+            "minimal",
+            "Zürich"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 182,
+      "name": "Arthur Hnatek, Taut",
+      "albums": [
+        {
+          "album_id": 232,
+          "title": "Polychroma",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "new york",
+            "zürich",
+            "Zürich"
+          ]
+        }
+      ]
     }
   ]
 }
