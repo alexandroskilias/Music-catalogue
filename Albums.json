@@ -4055,6 +4055,183 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 183,
+      "name": "underscores",
+      "albums": [
+        {
+          "album_id": 233,
+          "title": "U",
+          "year": 2026,
+          "rating": "bad",
+          "tags": [
+            "Electropop",
+            "Dance-Pop",
+            "EDM",
+            "Future Bass",
+            "Electro House",
+            "Glitch Pop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 184,
+      "name": "One of Vas",
+      "albums": [
+        {
+          "album_id": 234,
+          "title": "MIGMA",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "uk garage",
+            "post dubstep",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 185,
+      "name": "Supergrass",
+      "albums": [
+        {
+          "album_id": 235,
+          "title": "I Should Coco",
+          "year": 1995,
+          "rating": "perfect",
+          "tags": [
+            "Britpop",
+            "Pop Rock",
+            "Punk rock",
+            "Psychedelic Rock",
+            "alternative rock",
+            "pop punk",
+            "UK"
+          ]
+        },
+        {
+          "album_id": 236,
+          "title": "In It for the Money",
+          "year": 1997,
+          "rating": "perfect",
+          "tags": [
+            "Britpop",
+            "power pop",
+            "Indie Rock",
+            "Alternative Rock",
+            "Psychedelic Rock"
+          ]
+        },
+        {
+          "album_id": 237,
+          "title": "Supergrass",
+          "year": 1999,
+          "rating": "perfect",
+          "tags": [
+            "Indie Rock",
+            "Britpop"
+          ]
+        },
+        {
+          "album_id": 238,
+          "title": "Life On Other Planets",
+          "year": 2002,
+          "rating": "good",
+          "tags": [
+            "Britpop",
+            "Pop Rock",
+            "Glam",
+            "Alternative Rock"
+          ]
+        },
+        {
+          "album_id": 239,
+          "title": "Road To Rouen",
+          "year": 2005,
+          "rating": "perfect",
+          "tags": [
+            "Indie Rock"
+          ]
+        },
+        {
+          "album_id": 240,
+          "title": "Diamond Hoo Ha",
+          "year": 2008,
+          "rating": "perfect",
+          "tags": [
+            "Indie Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 186,
+      "name": "Claude VonStroke",
+      "albums": [
+        {
+          "album_id": 241,
+          "title": "Wrong Number",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "electronic",
+            "deep house",
+            "house",
+            "tech house",
+            "Los Angeles",
+            "California"
+          ]
+        },
+        {
+          "album_id": 242,
+          "title": "Freaks & Beaks",
+          "year": 2020,
+          "rating": "bad",
+          "tags": [
+            "House",
+            "Tech House",
+            "Los Angeles"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 187,
+      "name": "Photek",
+      "albums": [
+        {
+          "album_id": 243,
+          "title": "Modus Operandi",
+          "year": 1997,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Future Jazz",
+            "Drum and bass",
+            "Experimental"
+          ]
+        },
+        {
+          "album_id": 244,
+          "title": "KU:PALM",
+          "year": 2012,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Techno",
+            "Breaks",
+            "Deep House",
+            "Dubstep",
+            "Progressive House",
+            "Experimental"
+          ]
+        }
+      ]
     }
   ]
 }
