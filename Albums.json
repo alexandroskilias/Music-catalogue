@@ -4232,6 +4232,66 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 188,
+      "name": "Daft Punk",
+      "albums": [
+        {
+          "album_id": 245,
+          "title": "Homework",
+          "year": 1997,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "House",
+            "Techno",
+            "Electro",
+            "Disco",
+            "French House"
+          ]
+        },
+        {
+          "album_id": 246,
+          "title": "Discovery",
+          "year": 2001,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Disco",
+            "House",
+            "Electro",
+            "French House"
+          ]
+        },
+        {
+          "album_id": 247,
+          "title": "Human After All",
+          "year": 2005,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "House",
+            "Abstract",
+            "Electro",
+            "Experimental"
+          ]
+        },
+        {
+          "album_id": 248,
+          "title": "Random Access Memories",
+          "year": 2013,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Disco",
+            "Funk",
+            "Synth-pop",
+            "Electro",
+            "French House"
+          ]
+        }
+      ]
     }
   ]
 }
