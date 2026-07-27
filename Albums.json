@@ -4292,6 +4292,64 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 189,
+      "name": "MATTE BLVCK",
+      "albums": [
+        {
+          "album_id": 249,
+          "title": "I'm Waving, Not Drowning",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "Dark ambient",
+            "dark wave",
+            "electro techno",
+            "San Diego",
+            "California"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 190,
+      "name": "She Past Away",
+      "albums": [
+        {
+          "album_id": 250,
+          "title": "Narin Yalnızlık",
+          "year": 2015,
+          "rating": "good",
+          "tags": [
+            "alternative",
+            "coldwave",
+            "darkwave",
+            "goth-wave",
+            "gothic",
+            "post-punk"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 191,
+      "name": "Yellow Magic Orchestra",
+      "albums": [
+        {
+          "album_id": 251,
+          "title": "Solid State Survivor",
+          "year": 1979,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Electro",
+            "Synth-pop",
+            "Japan"
+          ]
+        }
+      ]
     }
   ]
 }
