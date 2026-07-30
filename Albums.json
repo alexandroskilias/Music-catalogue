@@ -87,7 +87,7 @@
           "tags": [
             "indie pop",
             "pop",
-            "synth pop",
+            "Synth-pop",
             "indie rock",
             "Athens",
             "Greece"
@@ -739,7 +739,7 @@
             "Pop",
             "Classical",
             "Contemporary Jazz",
-            "Neo-Classical",
+            "Neoclassical",
             "Impressionist",
             "Secret Eclectic"
           ]
@@ -1048,7 +1048,7 @@
           "rating": "perfect",
           "tags": [
             "Classical",
-            "Neo-Classical"
+            "Neoclassical"
           ]
         }
       ]
@@ -1922,7 +1922,7 @@
             "hip hop",
             "beats",
             "downtempo",
-            "trip hop",
+            "Trip Hop",
             "Rimini",
             "Italy"
           ]
@@ -2125,7 +2125,7 @@
             "Original Motion Picture Soundtrack",
             "Classical",
             "Minimal",
-            "Neo-Classical"
+            "Neoclassical"
           ]
         }
       ]
@@ -2644,7 +2644,7 @@
             "avant-pop",
             "cabaret",
             "cabaret pop",
-            "synthpop",
+            "Synth-pop",
             "Athens",
             "Greece"
           ]
@@ -3108,7 +3108,7 @@
           "rating": "perfect",
           "tags": [
             "Classical",
-            "Neo-Classical",
+            "Neoclassical",
             "Secret Eclectic",
             "piano",
             "solo piano",
@@ -3152,7 +3152,7 @@
             "Electronic",
             "House",
             "Downtempo",
-            "trip hop",
+            "Trip Hop",
             "Clermont Ferrand",
             "France"
           ]
@@ -3798,7 +3798,7 @@
           "year": 2020,
           "rating": "perfect",
           "tags": [
-            "synth pop",
+            "Synth-pop",
             "Nu-disco",
             "electro pop",
             "electro disco"
@@ -3827,7 +3827,7 @@
           "year": 2025,
           "rating": "perfect",
           "tags": [
-            "trip hop"
+            "Trip Hop"
           ]
         }
       ]
@@ -4347,6 +4347,106 @@
             "Electro",
             "Synth-pop",
             "Japan"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 192,
+      "name": "Jean-Michel Jarre",
+      "albums": [
+        {
+          "album_id": 252,
+          "title": "Equinoxe",
+          "year": 1978,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Synth-pop",
+            "Ambient"
+          ]
+        },
+        {
+          "album_id": 253,
+          "title": "Oxygène",
+          "year": 1976,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Synth-pop",
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 193,
+      "name": "Portishead",
+      "albums": [
+        {
+          "album_id": 254,
+          "title": "Dummy",
+          "year": 1994,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Trip Hop"
+          ]
+        },
+        {
+          "album_id": 255,
+          "title": "Portishead",
+          "year": 1997,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Downtempo",
+            "Trip Hop"
+          ]
+        },
+        {
+          "album_id": 256,
+          "title": "Third",
+          "year": 2008,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Rock",
+            "Downtempo",
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 194,
+      "name": "Mildred",
+      "albums": [
+        {
+          "album_id": 257,
+          "title": "Fenceline",
+          "year": 2026,
+          "rating": "bad",
+          "tags": [
+            "Folk",
+            "Indie Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 195,
+      "name": "Jean-Michel Blais",
+      "albums": [
+        {
+          "album_id": 258,
+          "title": "Aubades",
+          "year": 2022,
+          "rating": "bad",
+          "tags": [
+            "Neoclassical",
+            "Ambient"
           ]
         }
       ]
