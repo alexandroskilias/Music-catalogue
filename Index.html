@@ -147,7 +147,6 @@
              */
             function createAlbumRowHtml(album) {
                 const tagsHtml = album.tags.map(tag => 
-                    // DARK MODE: Tag background is darker, text is lighter
                     `<span class="tag-clickable bg-gray-700 text-gray-300 text-xs font-medium mr-1 px-1.5 py-0.5 rounded-md cursor-pointer hover:bg-gray-600 transition-colors duration-150 ease-in-out whitespace-nowrap">${tag}</span>`
                 ).join('');
 
@@ -170,14 +169,14 @@
             }
 
             /**
-             * Renders a list of albums to the DOM, grouped by artist, with extreme compaction (Dark Mode adjustments).
+             * Renders a list of albums to the DOM, grouped by artist and ordered by 
+             * the artist's latest album release year (descending).
              */
             function renderAlbums(albumsToRender) {
                 albumList.innerHTML = ''; 
                 statusMessage.classList.add('hidden');
 
                 if (albumsToRender.length === 0) {
-                    // DARK MODE: Status message text
                     albumList.innerHTML = '<p class="text-center text-gray-400 text-lg col-span-full">No albums match your search.</p>';
                     return;
                 }
@@ -189,7 +188,13 @@
                     return acc;
                 }, {});
 
-                const artistNames = Object.keys(albumsByArtist).reverse();
+                // Helper function to find the maximum release year for an artist
+                const getLatestYear = (albums) => Math.max(...albums.map(a => Number(a.year) || 0));
+
+                // Sort artists based on their most recent album release year (newest first)
+                const artistNames = Object.keys(albumsByArtist).sort((artistA, artistB) => {
+                    return getLatestYear(albumsByArtist[artistB]) - getLatestYear(albumsByArtist[artistA]);
+                });
 
                 for (const artist of artistNames) {
                     const sortedAlbums = albumsByArtist[artist].sort((a, b) => a.year - b.year);
@@ -199,7 +204,6 @@
                     const artistGroup = document.createElement('div');
                     artistGroup.classList.add('mb-4'); 
                     
-                    // DARK MODE: Artist Header background, border, and text
                     artistGroup.innerHTML += `
                         <h2 class="text-xl font-bold text-white mb-0 flex items-center bg-gray-700 p-2 rounded-t-lg border-b-2 border-gray-600 sticky-artist-header">
                             ${artist}
@@ -209,7 +213,6 @@
                         </h2>
                     `;
 
-                    // Start the Table
                     let tableHtml = `
                         <div class="shadow overflow-hidden border-b border-gray-700 rounded-b-lg">
                             <table class="min-w-full divide-y divide-gray-700">
