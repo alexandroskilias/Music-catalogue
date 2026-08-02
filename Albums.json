@@ -4450,6 +4450,86 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 196,
+      "name": "Ben Salisbury x Geoff Barrow",
+      "albums": [
+        {
+          "album_id": 259,
+          "title": "Drokk: Music Inspired by Mega-City One",
+          "year": 2012,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Soundtrack",
+            "Experimental",
+            "Ambient",
+            "Minimal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 197,
+      "name": "Μάνος Χατζιδάκις (Manos Hadjidakis)",
+      "albums": [
+        {
+          "album_id": 260,
+          "title": "Ο Μεγάλος Ερωτικός (O Megalos Erotikos)",
+          "year": 1972,
+          "rating": "perfect",
+          "tags": [
+            "Éntekhno",
+            "Greek Folk",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 261,
+          "title": "Reflections (with New York Rock & Roll Ensemble)",
+          "year": 1970,
+          "rating": "perfect",
+          "tags": [
+            "Rock",
+            "Classical",
+            "Folk",
+            "World",
+            "Greek",
+            "Contemporary",
+            "Classic Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 198,
+      "name": "Beak>",
+      "albums": [
+        {
+          "album_id": 262,
+          "title": ">>>",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Rock",
+            "Experimental",
+            "Krautrock"
+          ]
+        },
+        {
+          "album_id": 263,
+          "title": "Beak>>",
+          "year": 2012,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Rock",
+            "Experimental"
+          ]
+        }
+      ]
     }
   ]
 }
