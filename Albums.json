@@ -4542,6 +4542,395 @@
             "Psychedelic Rock",
             "Experimental"
           ]
+        },
+        {
+          "album_id": 265,
+          "title": "Beak>",
+          "year": 2009,
+          "rating": "perfect",
+          "tags": [
+            "Rock",
+            "Electronic",
+            "Experimental",
+            "Indie Rock",
+            "Krautrock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 199,
+      "name": "Sudden Voices",
+      "albums": [
+        {
+          "album_id": 266,
+          "title": "Scruples",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "experimental",
+            "experimental rock",
+            "krautrock",
+            "post-rock",
+            "psychedelic",
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 200,
+      "name": "Beth Gibbons",
+      "albums": [
+        {
+          "album_id": 267,
+          "title": "Lives Outgrown",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Rock",
+            "Classical",
+            "Folk",
+            "Indie Rock",
+            "Art Rock",
+            "Avantgarde",
+            "Ethereal",
+            "Experimental",
+            "Neoclassical"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 201,
+      "name": "Μίκης Θεοδωράκης",
+      "albums": [
+        {
+          "album_id": 268,
+          "title": "Το Άξιον Εστί",
+          "year": 1964,
+          "rating": "good",
+          "tags": [
+            "Laïkó",
+            "Éntekhno"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 202,
+      "name": "Tyla",
+      "albums": [
+        {
+          "album_id": 269,
+          "title": "A*Pop",
+          "year": 2026,
+          "rating": "bad",
+          "tags": [
+            "Dance-pop",
+            "Amapiano",
+            "Alt-Pop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 203,
+      "name": "Sectra",
+      "albums": [
+        {
+          "album_id": 270,
+          "title": "Through The Static",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Industrial",
+            "noise",
+            "distortion",
+            "drone",
+            "noise",
+            "techno",
+            "Denver",
+            "Colorado"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 204,
+      "name": "Rodriguez Jr.",
+      "albums": [
+        {
+          "album_id": 271,
+          "title": "Blisss",
+          "year": 2020,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Progressive House",
+            "Deep House",
+            "Miami",
+            "Florida",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 205,
+      "name": "Mannigfaltig",
+      "albums": [
+        {
+          "album_id": 272,
+          "title": "Dominik Eulberg",
+          "year": 2019,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Depp techno",
+            "Montabaur",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 206,
+      "name": "Megadeth",
+      "albums": [
+        {
+          "album_id": 273,
+          "title": "Killing Is My Business... and Business Is Good!",
+          "year": 1985,
+          "rating": "bad",
+          "tags": [
+            "Rock",
+            "Thrash",
+            "Speed Metal",
+            "Heavy Metal"
+          ]
+        },
+        {
+          "album_id": 274,
+          "title": "Peace Sells... But Who's Buying?",
+          "year": 1986,
+          "rating": "good",
+          "tags": [
+            "Rock",
+            "Thrash",
+            "Speed Metal",
+            "Heavy Metal"
+          ]
+        },
+        {
+          "album_id": 275,
+          "title": "o Far, So Good... So What!",
+          "year": 1988,
+          "rating": "bad",
+          "tags": [
+            "Thrash",
+            "Speed Metal"
+          ]
+        },
+        {
+          "album_id": 276,
+          "title": "Rust In Peace",
+          "year": 1990,
+          "rating": "good",
+          "tags": [
+            "Thrash"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 207,
+      "name": "Jamie Woon",
+      "albums": [
+        {
+          "album_id": 277,
+          "title": "Mirrorwriting",
+          "year": 2011,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Dubstep",
+            "Soul",
+            "Downtempo"
+          ]
+        },
+        {
+          "album_id": 278,
+          "title": "Making Time",
+          "year": 2015,
+          "rating": "perfect",
+          "tags": [
+            "Electronic",
+            "Downtempo",
+            "Dubstep",
+            "Soul"
+          ]
+        },
+        {
+          "album_id": 280,
+          "title": "3 10 Why When",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Soul",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 208,
+      "name": "Fragment Soul",
+      "albums": [
+        {
+          "album_id": 279,
+          "title": "Axiom of Choice",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "metal",
+            "progressive rock",
+            "doom metal",
+            "gothic metal",
+            "post-metal",
+            "post-rock",
+            "progressive metal",
+            "Corfu",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 209,
+      "name": "Ulrich Schnauss",
+      "albums": [
+        {
+          "album_id": 281,
+          "title": "Far Away Trains Passing By",
+          "year": 2001,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "IDM",
+            "Downtempo"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 210,
+      "name": "Shlohmo",
+      "albums": [
+        {
+          "album_id": 282,
+          "title": "The End",
+          "year": 2019,
+          "rating": "bad",
+          "tags": [
+            "Electronic"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 211,
+      "name": "The Weeknd",
+      "albums": [
+        {
+          "album_id": 283,
+          "title": "After Hours",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Hip Hop",
+            "Pop",
+            "Synthwave",
+            "Disco",
+            "Contemporary R&B",
+            "Synth-pop",
+            "Trap"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 212,
+      "name": "Franz von Suppé",
+      "albums": [
+        {
+          "album_id": 284,
+          "title": "Requiem",
+          "year": 1855,
+          "rating": "perfect",
+          "tags": [
+            "Classical",
+            "Romantic"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 213,
+      "name": "The Verve",
+      "albums": [
+        {
+          "album_id": 285,
+          "title": "A Storm In Heaven",
+          "year": 1993,
+          "rating": "bad",
+          "tags": [
+            "Rock",
+            "Space Rock",
+            "Psychedelic Rock",
+            "Indie Rock",
+            "Shoegaze"
+          ]
+        },
+        {
+          "album_id": 286,
+          "title": "A Northern Soul",
+          "year": 1995,
+          "rating": "good",
+          "tags": [
+            "Rock",
+            "Alternative Rock",
+            "Blues Rock",
+            "Indie Rock",
+            "Psychedelic Rock"
+          ]
+        },
+        {
+          "album_id": 287,
+          "title": "Urban Hymns",
+          "year": 1997,
+          "rating": "perfect",
+          "tags": [
+            "Rock",
+            "Alternative Rock",
+            "Britpop"
+          ]
+        },
+        {
+          "album_id": 288,
+          "title": "Forth",
+          "year": 2008,
+          "rating": "good",
+          "tags": [
+            "Rock",
+            "Britpop",
+            "Indie Rock"
+          ]
         }
       ]
     }
