@@ -4933,6 +4933,313 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 214,
+      "name": "Eloise",
+      "albums": [
+        {
+          "album_id": 289,
+          "title": "Drunk On A Flight",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Indie Pop",
+            "Vocal"
+          ]
+        },
+        {
+          "album_id": 290,
+          "title": "My Man & Me",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Indie Pop",
+            "Vocal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 215,
+      "name": "Isabella Lundgren",
+      "albums": [
+        {
+          "album_id": 291,
+          "title": "What Cannot be Told",
+          "year": 2025,
+          "rating": "perfect",
+          "tags": [
+            "jazz",
+            "Sweden"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 216,
+      "name": "Royal Blood",
+      "albums": [
+        {
+          "album_id": 292,
+          "title": "Royal Blood",
+          "year": 2014,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Hard Rock",
+            "Stoner Rock",
+            "Blues Rock",
+            "Garage Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 217,
+      "name": "Jorja Smith",
+      "albums": [
+        {
+          "album_id": 293,
+          "title": "What Are The Odds",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Hip Hop",
+            "UK Garage",
+            "Grime",
+            "House",
+            "Contemporary R&B"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 218,
+      "name": "Blond in Car",
+      "albums": [
+        {
+          "album_id": 294,
+          "title": "ALTAVAN",
+          "year": 2023,
+          "rating": "bad",
+          "tags": [
+            "alternative",
+            "alt pop",
+            "bedroom pop",
+            "retrowave",
+            "synth pop",
+            "Los Angeles",
+            "California"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 219,
+      "name": "Διονύσης Σαββόπουλος (Dionýsios Savvópoulos)",
+      "albums": [
+        {
+          "album_id": 295,
+          "title": "Φορτηγό",
+          "year": 1966,
+          "rating": "good",
+          "tags": [
+            "Folk Rock",
+            "Greek"
+          ]
+        },
+        {
+          "album_id": 297,
+          "title": "Το Περιβόλι Του Τρελλού",
+          "year": 1969,
+          "rating": "good",
+          "tags": [
+            "Folk Rock",
+            "Acoustic",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 298,
+          "title": "Μπάλλος",
+          "year": 1971,
+          "rating": "good",
+          "tags": [
+            "Folk Rock",
+            "Acoustic",
+            "Greece"
+          ]
+        },
+        {
+          "album_id": 304,
+          "title": "Το Βρώμικο Ψωμί",
+          "year": 1972,
+          "rating": "perfect",
+          "tags": [
+            "Folk Rock",
+            "Acoustic",
+            "Greek"
+          ]
+        },
+        {
+          "album_id": 305,
+          "title": "10 Χρόνια Κομμάτια",
+          "year": 1975,
+          "rating": "good",
+          "tags": [
+            "Folk Rock",
+            "Acoustic",
+            "Greek"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 220,
+      "name": "Lusine",
+      "albums": [
+        {
+          "album_id": 296,
+          "title": "Sensorimotor",
+          "year": 2017,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "ambient",
+            "downtempo",
+            "idm",
+            "techno",
+            "Seattle",
+            "Washington",
+            "USA"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 221,
+      "name": "Fontaines D.C.",
+      "albums": [
+        {
+          "album_id": 299,
+          "title": "Skinty Fia",
+          "year": 2022,
+          "rating": "good",
+          "tags": [
+            "Goth Rock",
+            "Post-Punk",
+            "Alternative Rock"
+          ]
+        },
+        {
+          "album_id": 300,
+          "title": "Dogrel",
+          "year": 2019,
+          "rating": "bad",
+          "tags": [
+            "Rock",
+            "Indie Rock",
+            "Post-Punk"
+          ]
+        },
+        {
+          "album_id": 301,
+          "title": "A Hero's Death",
+          "year": 2020,
+          "rating": "good",
+          "tags": [
+            "Post-Punk",
+            "Rock"
+          ]
+        },
+        {
+          "album_id": 303,
+          "title": "Romance",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "Indie Rock",
+            "Post Rock",
+            "Post-Punk"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 222,
+      "name": "Dirty South",
+      "albums": [
+        {
+          "album_id": 302,
+          "title": "darko",
+          "year": 2018,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Progressive House",
+            "Tech House"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 223,
+      "name": "Pedro Neves Trio",
+      "albums": [
+        {
+          "album_id": 306,
+          "title": "Hindrances",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "Piano",
+            "Jazz",
+            "Portugal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 224,
+      "name": "Lisa",
+      "albums": [
+        {
+          "album_id": 307,
+          "title": "Alter Ego",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Hip Hop",
+            "Pop Rap",
+            "Electro",
+            "Trap",
+            "Dance-pop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 225,
+      "name": "Igor Yakovenko | Petr Ivshin",
+      "albums": [
+        {
+          "album_id": 308,
+          "title": "Pantheon",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "classical",
+            "electronic",
+            "experimental",
+            "contemporary",
+            "jazz",
+            "Moscow",
+            "Russia",
+            "OOTW"
+          ]
+        }
+      ]
     }
   ]
 }
