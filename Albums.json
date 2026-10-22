@@ -3848,6 +3848,19 @@
             "breakbeat",
             "IDM"
           ]
+        },
+        {
+          "album_id": 327,
+          "title": "Closer",
+          "year": 2022,
+          "rating": "perfect",
+          "tags": [
+            "Drum and bass",
+            "Ambient",
+            "Electronic",
+            "Groningen",
+            "Netherlands"
+          ]
         }
       ]
     },
@@ -4016,6 +4029,34 @@
             "Classical",
             "Contemporary",
             "Piano"
+          ]
+        },
+        {
+          "album_id": 315,
+          "title": "I Am Not Lambert",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Neoclassical"
+          ]
+        },
+        {
+          "album_id": 316,
+          "title": "Actually Good",
+          "year": 2024,
+          "rating": "perfect",
+          "tags": [
+            "Neoclassical"
+          ]
+        },
+        {
+          "album_id": 317,
+          "title": "True",
+          "year": 2019,
+          "rating": "good",
+          "tags": [
+            "Ambient",
+            "Neoclassical"
           ]
         }
       ]
@@ -5221,7 +5262,7 @@
     },
     {
       "artist_id": 225,
-      "name": "Igor Yakovenko | Petr Ivshin",
+      "name": "Igor Yakovenko",
       "albums": [
         {
           "album_id": 308,
@@ -5237,6 +5278,271 @@
             "Moscow",
             "Russia",
             "OOTW"
+          ]
+        },
+        {
+          "album_id": 313,
+          "title": "Hyperfocus",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Piano trio",
+            "Piano jazz",
+            "Jazz"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 226,
+      "name": "Magnetic Man",
+      "albums": [
+        {
+          "album_id": 309,
+          "title": "Magnetic Man",
+          "year": 2010,
+          "rating": "perfect",
+          "tags": [
+            "Dubstep",
+            "Electronic",
+            "OOTW"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 227,
+      "name": "Blur",
+      "albums": [
+        {
+          "album_id": 310,
+          "title": "Leisure",
+          "year": 1991,
+          "rating": "bad",
+          "tags": [
+            "Indie Rock",
+            "Psychedelic Rock",
+            "Shoegaze",
+            "Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 228,
+      "name": "Μάνος Λοΐζος, Χάρις Αλεξίου (Haris Alexiou)",
+      "albums": [
+        {
+          "album_id": 311,
+          "title": "Τα Τραγούδια Της Χαρούλας",
+          "year": 1979,
+          "rating": "perfect",
+          "tags": [
+            "Laïkó",
+            "Éntekhno",
+            "Greek"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 229,
+      "name": "Arianna K to kommati pou leipei",
+      "albums": [
+        {
+          "album_id": 312,
+          "title": "Cinema Verite",
+          "year": 2026,
+          "rating": "bad",
+          "tags": [
+            "alternative",
+            "art pop",
+            "dream pop",
+            "indie pop",
+            "indie rock",
+            "psychedelic rock",
+            "Athens",
+            "Greece"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 230,
+      "name": "Tigran Hamasyan",
+      "albums": [
+        {
+          "album_id": 314,
+          "title": "An Ancient Observer",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "jazz",
+            "Contemporary Jazz",
+            "Armenian",
+            "folk",
+            "piano",
+            "OOTW"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 231,
+      "name": "Jennie",
+      "albums": [
+        {
+          "album_id": 318,
+          "title": "Ruby",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "K-pop",
+            "Hip Hop",
+            "Contemporary R&B",
+            "Dance-pop"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 232,
+      "name": "Danalogue",
+      "albums": [
+        {
+          "album_id": 319,
+          "title": "Teleportations",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Jazz",
+            "Experimental",
+            "London",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 233,
+      "name": "James Shinra",
+      "albums": [
+        {
+          "album_id": 320,
+          "title": "Meteorites",
+          "year": 2025,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "braindance",
+            "techno",
+            "UK"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 234,
+      "name": "Idles",
+      "albums": [
+        {
+          "album_id": 321,
+          "title": "Joy As An Act Of Resistance",
+          "year": 2018,
+          "rating": "perfect",
+          "tags": [
+            "Rock",
+            "Alternative Rock",
+            "post punk"
+          ]
+        },
+        {
+          "album_id": 322,
+          "title": "Brutalism",
+          "year": 2017,
+          "rating": "good",
+          "tags": [
+            "New Wave",
+            "Post Punk",
+            "Noise Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 235,
+      "name": "Hatti Vatti",
+      "albums": [
+        {
+          "album_id": 323,
+          "title": "Zeit",
+          "year": 2024,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Jazz",
+            "Gdańsk",
+            "Poland"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 236,
+      "name": "gianna",
+      "albums": [
+        {
+          "album_id": 324,
+          "title": "Behind The Wings",
+          "year": 2025,
+          "rating": "bad",
+          "tags": [
+            "Pop",
+            "UK",
+            "London",
+            "Albania"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 237,
+      "name": "Dumbhead",
+      "albums": [
+        {
+          "album_id": 325,
+          "title": "Dumbhead",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Jazz",
+            "Rock",
+            "Trip Hop",
+            "Downtempo",
+            "Experimental",
+            "IDM",
+            "Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 238,
+      "name": "The Field",
+      "albums": [
+        {
+          "album_id": 326,
+          "title": "Now You Exist",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Electronic",
+            "Techno",
+            "Tech House",
+            "Ambient",
+            "Experimental"
           ]
         }
       ]
