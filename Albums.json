@@ -5546,6 +5546,110 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 239,
+      "name": "Apparat",
+      "albums": [
+        {
+          "album_id": 328,
+          "title": "A Hum Of Maybe",
+          "year": 2026,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Ambient",
+            "Experimental",
+            "Berlin",
+            "Germany"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 240,
+      "name": "The Demon Kelbroton",
+      "albums": [
+        {
+          "album_id": 329,
+          "title": "Music for Neutral Demons",
+          "year": 2024,
+          "rating": "bad",
+          "tags": [
+            "Electronic",
+            "Experimental",
+            "Techno",
+            "idm",
+            "Boston",
+            "Massachusetts"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 241,
+      "name": "Queens Of The Stone Age",
+      "albums": [
+        {
+          "album_id": 330,
+          "title": "...Like Clockwork",
+          "year": 2013,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Stoner Rock",
+            "OOTW"
+          ]
+        },
+        {
+          "album_id": 332,
+          "title": "Songs For The Deaf",
+          "year": 2002,
+          "rating": "perfect",
+          "tags": [
+            "Stoner Rock",
+            "Hard Rock"
+          ]
+        },
+        {
+          "album_id": 333,
+          "title": "Era Vulgaris",
+          "year": 2007,
+          "rating": "perfect",
+          "tags": [
+            "Stoner Rock",
+            "Indie Rock",
+            "Alternative Rock",
+            "Hard Rock"
+          ]
+        },
+        {
+          "album_id": 334,
+          "title": "Queens Of The Stone Age",
+          "year": 1998,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Stoner Rock",
+            "Space Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 242,
+      "name": "Black Sun Empire",
+      "albums": [
+        {
+          "album_id": 331,
+          "title": "The Wrong Room",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "Drum and bass"
+          ]
+        }
+      ]
     }
   ]
 }
