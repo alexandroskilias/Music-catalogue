@@ -5633,6 +5633,25 @@
             "Stoner Rock",
             "Space Rock"
           ]
+        },
+        {
+          "album_id": 335,
+          "title": "Rated R",
+          "year": 2000,
+          "rating": "perfect",
+          "tags": [
+            "Hard Rock",
+            "Stoner Rock"
+          ]
+        },
+        {
+          "album_id": 336,
+          "title": "Lullabies To Paralyze",
+          "year": 2005,
+          "rating": "perfect",
+          "tags": [
+            "Hard Rock"
+          ]
         }
       ]
     },
