@@ -5652,6 +5652,26 @@
           "tags": [
             "Hard Rock"
           ]
+        },
+        {
+          "album_id": 337,
+          "title": "Villains",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Stoner Rock"
+          ]
+        },
+        {
+          "album_id": 338,
+          "title": "In Times New Roman...",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Stoner Rock",
+            "Alternative Rock"
+          ]
         }
       ]
     },
