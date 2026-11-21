@@ -5672,6 +5672,16 @@
             "Stoner Rock",
             "Alternative Rock"
           ]
+        },
+        {
+          "album_id": 339,
+          "title": "Perfecth",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Stoner Rock"
+          ]
         }
       ]
     },
@@ -5686,6 +5696,94 @@
           "rating": "perfect",
           "tags": [
             "Drum and bass"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 243,
+      "name": "Tigercub",
+      "albums": [
+        {
+          "album_id": 340,
+          "title": "As Blue As Indigo",
+          "year": 2021,
+          "rating": "perfect",
+          "tags": [
+            "hard rock",
+            "metal rock",
+            "alternative rock",
+            "indie rock",
+            "Brighton",
+            "UK"
+          ]
+        },
+        {
+          "album_id": 341,
+          "title": "The Perfume Of Decay",
+          "year": 2023,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Hard Rock",
+            "Noise Rock",
+            "Brighton",
+            "UK"
+          ]
+        },
+        {
+          "album_id": 344,
+          "title": "Abstract Figures In The Dark",
+          "year": 20016,
+          "rating": "perfect",
+          "tags": [
+            "Stoner Rock"
+          ]
+        },
+        {
+          "album_id": 345,
+          "title": "Nets to Catch the Wind",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "Alternative Rock",
+            "Alternative Metal"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 244,
+      "name": "Felsmann + Tiley",
+      "albums": [
+        {
+          "album_id": 342,
+          "title": "Protomensch",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "electronic",
+            "Synthwave"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 245,
+      "name": "Chase & Status",
+      "albums": [
+        {
+          "album_id": 343,
+          "title": "Generic Everything",
+          "year": 2026,
+          "rating": "good",
+          "tags": [
+            "Drum n Bass",
+            "Big Beat",
+            "Jungle",
+            "Dubstep",
+            "UK Garage",
+            "Ragga HipHop"
           ]
         }
       ]
