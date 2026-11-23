@@ -5787,6 +5787,22 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 246,
+      "name": "Mild High Club",
+      "albums": [
+        {
+          "album_id": 346,
+          "title": "Skiptracing",
+          "year": 2016,
+          "rating": "perfect",
+          "tags": [
+            "Indie Rock",
+            "Psychedelic Rock"
+          ]
+        }
+      ]
     }
   ]
 }
