@@ -5801,6 +5801,49 @@
             "Indie Rock",
             "Psychedelic Rock"
           ]
+        },
+        {
+          "album_id": 347,
+          "title": "Timeline",
+          "year": 2015,
+          "rating": "perfect",
+          "tags": [
+            "Indie Rock",
+            "Psychedelic pop"
+          ]
+        },
+        {
+          "album_id": 348,
+          "title": "Going Going Gone",
+          "year": 2021,
+          "rating": "good",
+          "tags": [
+            "Pop Rock",
+            "Synth-pop",
+            "Fusion"
+          ]
+        }
+      ]
+    },
+    {
+      "artist_id": 247,
+      "name": "Radio Banana",
+      "albums": [
+        {
+          "album_id": 349,
+          "title": "Goes Outside",
+          "year": 2026,
+          "rating": "perfect",
+          "tags": [
+            "funk",
+            "beats",
+            "hip hop instrumentals",
+            "indie rnb",
+            "lofi beats",
+            "lofi hiphop",
+            "Stockholm",
+            "Sweden"
+          ]
         }
       ]
     }
