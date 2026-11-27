@@ -5846,6 +5846,26 @@
           ]
         }
       ]
+    },
+    {
+      "artist_id": 248,
+      "name": "Bruno Major",
+      "albums": [
+        {
+          "album_id": 350,
+          "title": "A Song For Every Moon",
+          "year": 2017,
+          "rating": "perfect",
+          "tags": [
+            "Pop",
+            "R&B",
+            "soul",
+            "jazz",
+            "blues",
+            "OOTW"
+          ]
+        }
+      ]
     }
   ]
 }
